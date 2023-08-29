@@ -2,15 +2,20 @@
 import { Entity, engine } from '@dcl/sdk/ecs';
 import { Quaternion, Vector3 } from '@dcl/sdk/math';
 import *  as  npc from 'dcl-npc-toolkit'
-import { startEvent, actionEvents } from './events'
+import { startEvent, actionEvents, questProgress } from './events'
 
 let octo: Entity
 let catGuy: Entity
 
 let catIsOut: boolean = false
 
+export let octoState = 0
+
 export function addNPCs() {
 
+	questProgress.on("step", (stepNumber: number) => {
+		octoState = stepNumber
+	})
 
 	octo = npc.create(
 		{ position: Vector3.create(79.28, 0, 135.34), rotation: Quaternion.fromEulerDegrees(0, -90, 0) },
@@ -19,6 +24,14 @@ export function addNPCs() {
 			type: npc.NPCType.CUSTOM,
 			model: 'assets/models/NPCs/BobOctorossV46.glb',
 			onActivate: () => {
+
+				switch (octoState) {
+					case 0:
+						npc.talk(octo, OctoQuest, 'questQ')
+						break
+					//  TODO: add other steps
+				}
+
 				npc.talk(octo, OctoQuest, 'questQ')
 				console.log('npc activated');
 				npc.changeIdleAnim(octo, 'TalkLoop')

@@ -5,7 +5,7 @@ import { bounceScalingSystem, circularSystem } from './systems'
 
 import { addNPCs } from './npcs'
 import { Action, createQuestsClient, QuestInstance } from '@dcl/quests-client'
-import { startEvent, actionEvents } from './events'
+import { startEvent, actionEvents, questProgress } from './events'
 import { makeQuestCollectible } from './quest_collectibles'
 
 // Defining behavior. See `src/systems.ts` file.
@@ -29,6 +29,25 @@ export function main() {
 			console.log('Quests Client is ready to use!')
 
 			questsClient.onUpdate((quest: QuestInstance) => {
+				for (let step of quest.state.stepsCompleted) {
+					switch (step) {
+						case "talk_octo_1_step":
+							questProgress.emit("step", 1)
+						case "catGuy_step":
+							questProgress.emit("step", 2)
+						case "talk_octo_2_step":
+							questProgress.emit("step", 3)
+						case "collect_herbs":
+							questProgress.emit("step", 4)
+						case "talk_octo_3_step":
+							questProgress.emit("step", 5)
+						case "calis_step":
+							questProgress.emit("step", 6)
+						case "talk_octo_4_step":
+							questProgress.emit("step", 7)
+					}
+				}
+
 				// update your state here or react to your quest updates
 			})
 
