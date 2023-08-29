@@ -1,0 +1,147 @@
+{
+	"name": "The drink of the gods",
+	"description": "Collect all the ingredients to make the perfect drink",
+	"imageUrl": "",
+	"definition": {
+			"steps": [{
+					"id": "talk_octo_1_step",
+					"description": "Talk to the Octopus Barman",
+					"tasks": [{
+							"id": "talk_octo_1_task",
+							"description": "",
+							"actionItems": [{
+								"type": "CUSTOM",
+								"parameters": { "id": "talk_octo_1_action" }
+							}]
+					}]
+			},{
+				"id": "collect_herbs",
+				"description": "Collect herbs",
+				"tasks": [{
+						"id": "collect_vines",
+						"description": "Collect 3 vine plants",
+						"actionItems": [{
+							"type": "CUSTOM",
+							"parameters": { "id": "collect_vine_action" }
+						}, {
+							"type": "CUSTOM",
+							"parameters": { "id": "collect_vine_action" }
+						},{
+							"type": "CUSTOM",
+							"parameters": { "id": "collect_vine_action" }
+						}]
+				}, {
+					"id": "collect_berries",
+					"description": "Collect from 3 berry plants",
+					"actionItems": [{
+						"type": "CUSTOM",
+						"parameters": { "id": "collect_berry_action" }
+					}, {
+						"type": "CUSTOM",
+						"parameters": { "id": "collect_berry_action" }
+					}, {
+						"type": "CUSTOM",
+						"parameters": { "id": "collect_berry_action" }
+					}]
+			},{
+				"id": "collect_kimkim",
+				"description": "Collect 3 kimkim plants",
+				"actionItems": [{
+					"type": "CUSTOM",
+					"parameters": { "id": "collect_kimkim_action" }
+				}, {
+					"type": "CUSTOM",
+					"parameters": { "id": "collect_kimkim_action" }
+				},{
+					"type": "CUSTOM",
+					"parameters": { "id": "collect_kimkim_action" }
+				}]
+		}]
+		},
+		{
+			"id": "catGuy_step",
+			"description": "Talk to cat Guy",
+			"tasks": [{
+					"id": "catGuy_task",
+					"description": "Talk to the cat guy",
+					"actionItems": [{
+						"type": "CUSTOM",
+						"parameters": { "id": "talk_catguy_action" }
+					}]
+			}, {
+				"id": "get_hair_task",
+				"description": "Pinch hair from cat",
+				"actionItems": [{
+					"type": "CUSTOM",
+					"parameters": { "id": "get_hair_action" }
+				}]
+		}]
+	},
+	{
+		"id": "calis_step",
+		"description": "Find the golden Calis",
+		"tasks": [{
+				"id": "calis_task",
+				"description": "",
+				"actionItems": [{
+					"type": "CUSTOM",
+					"parameters": { "id": "calis_action" }
+				}]
+		}]
+	},
+	{
+		"id": "talk_octo_2_step",
+		"description": "Talk to the Octopus Barman",
+		"tasks": [{
+				"id": "talk_octo_2_task",
+				"description": "",
+				"actionItems": [{
+					"type": "CUSTOM",
+					"parameters": { "id": "talk_octo_2_action" }
+				}]
+		}]
+},{
+	"id": "talk_octo_3_step",
+	"description": "Talk to the Octopus Barman",
+	"tasks": [{
+			"id": "talk_octo_3_task",
+			"description": "",
+			"actionItems": [{
+				"type": "CUSTOM",
+				"parameters": { "id": "talk_octo_3_action" }
+			}]
+	}]
+}, {
+	"id": "talk_octo_4_step",
+	"description": "Talk to the Octopus Barman",
+	"tasks": [{
+			"id": "talk_octo_4_task",
+			"description": "",
+			"actionItems": [{
+				"type": "CUSTOM",
+				"parameters": { "id": "talk_octo_4_action" }
+			}]
+	}]
+}],
+			"connections": [{
+				"stepFrom": "talk_octo_1_step",
+				"stepTo": "catGuy_step"
+		},{
+			"stepFrom": "catGuy_step",
+			"stepTo": "talk_octo_2_step"
+		},{
+			"stepFrom": "talk_octo_2_step",
+			"stepTo": "collect_herbs"
+		},{
+			"stepFrom": "collect_herbs",
+				"stepTo": "talk_octo_3_step"
+		},{
+			"stepFrom": "talk_octo_3_step",
+				"stepTo": "calis_step"
+		},{
+			"stepFrom": "calis_step",
+				"stepTo": "talk_octo_3_step"
+		}
+		]
+	}
+}
