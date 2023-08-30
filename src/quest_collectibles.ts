@@ -1,6 +1,5 @@
 import { ColliderLayer, Entity, GltfContainer, InputAction, Transform, pointerEventsSystem } from "@dcl/sdk/ecs";
-import { startEvent, actionEvents } from './events'
-import { Action } from "@dcl/quests-client";
+import { actionEvents } from './events'
 import * as utils from '@dcl-sdk/utils'
 import { Vector3 } from "@dcl/sdk/math";
 

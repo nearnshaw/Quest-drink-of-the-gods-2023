@@ -1,16 +1,11 @@
 import { engine, executeTask, InputAction, inputSystem, Material, MeshCollider, pointerEventsSystem, TextAlignMode, TextShape } from '@dcl/sdk/ecs'
 
-import { bounceScalingSystem, circularSystem } from './systems'
-
 
 import { addNPCs } from './npcs'
 import { Action, createQuestsClient, QuestInstance } from '@dcl/quests-client'
 import { startEvent, actionEvents, questProgress } from './events'
 import { makeQuestCollectible } from './quest_collectibles'
 
-// Defining behavior. See `src/systems.ts` file.
-engine.addSystem(circularSystem)
-engine.addSystem(bounceScalingSystem)
 
 
 const serviceUrl = 'wss://quests-rpc.decentraland.zone'
