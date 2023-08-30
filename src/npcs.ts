@@ -3,6 +3,7 @@ import { Entity, engine } from '@dcl/sdk/ecs';
 import { Quaternion, Vector3 } from '@dcl/sdk/math';
 import *  as  npc from 'dcl-npc-toolkit'
 import { startEvent, actionEvents, questProgress } from './events'
+import { spawnCat } from './cat';
 
 let octo: Entity
 let catGuy: Entity
@@ -15,6 +16,10 @@ export function addNPCs() {
 
 	questProgress.on("step", (stepNumber: number) => {
 		octoState = stepNumber
+
+		if (catIsOut && stepNumber == 2) {
+			npc.playAnimation(catGuy, `collect`)
+		}
 	})
 
 	octo = npc.create(
@@ -29,7 +34,24 @@ export function addNPCs() {
 					case 0:
 						npc.talk(octo, OctoQuest, 'questQ')
 						break
-					//  TODO: add other steps
+					case 1:
+						npc.talk(octo, OctoQuest, 'noHairs')
+						break
+					case 2:
+						npc.talk(octo, OctoQuest, 'quest2')
+						break
+					case 3:
+						npc.talk(octo, OctoQuest, 'noHerbs')
+						break
+					case 4:
+						npc.talk(octo, OctoQuest, 'quest3')
+						break
+					case 5:
+						npc.talk(octo, OctoQuest, 'noCalis')
+						break
+					case 6:
+						npc.talk(octo, OctoQuest, 'serveDrink')
+						break
 				}
 
 				npc.talk(octo, OctoQuest, 'questQ')
@@ -59,9 +81,12 @@ export function addNPCs() {
 			dialogSound: `sounds/navigationForward.mp3`,
 			onActivate: () => {
 				console.log('npc activated');
-				npc.talk(catGuy, catQuest)
-				npc.playAnimation(catGuy, `talk`)
-				npc.talk(catGuy, catQuest)
+				switch (octoState) {
+					case 1:
+						npc.talk(catGuy, catQuest)
+						npc.playAnimation(catGuy, `talk`)
+						break
+				}
 			},
 			onWalkAway: () => {
 				npc.playAnimation(catGuy, `idle`)
@@ -79,6 +104,8 @@ export function backToIdle() {
 }
 
 export function releaseCat() {
+
+
 
 }
 
@@ -108,7 +135,7 @@ export let catQuest: npc.Dialog[] = [
 
 			if (!catIsOut) {
 				catIsOut = true
-				releaseCat()
+				spawnCat()
 			}
 		},
 	},
