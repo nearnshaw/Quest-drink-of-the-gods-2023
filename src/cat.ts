@@ -1,4 +1,4 @@
-import { Animator, InputAction, Transform } from "@dcl/sdk/ecs";
+import { Animator, ColliderLayer, InputAction, MeshCollider, PointerEvents, Transform } from "@dcl/sdk/ecs";
 import { GltfContainer } from "@dcl/sdk/ecs";
 import { pointerEventsSystem } from "@dcl/sdk/ecs";
 import { engine } from "@dcl/sdk/ecs";
@@ -6,8 +6,14 @@ import { Quaternion } from "@dcl/sdk/math";
 import { Vector3 } from "@dcl/sdk/math";
 import { startEvent, actionEvents, questProgress } from './events'
 import * as utils from '@dcl-sdk/utils'
+import { StepsEnum } from ".";
+
+export let catIsOut: boolean = false
 
 export function spawnCat() {
+
+	if (catIsOut) return
+	catIsOut = true
 
 	const initialPosition = Vector3.create(65.8, 0, 74.08)
 	const initialRotation = Quaternion.fromEulerDegrees(0, -26.92, 0)
@@ -21,7 +27,12 @@ export function spawnCat() {
 
 	})
 
-	GltfContainer.create(cat, { src: "models/NPCs/cat_orange.glb" })
+	GltfContainer.create(cat, {
+		src: "assets/models/NPCs/cat_orange.glb",
+		visibleMeshesCollisionMask: ColliderLayer.CL_POINTER
+	})
+
+	MeshCollider.setBox(cat)
 
 	pointerEventsSystem.onPointerDown({
 		entity: cat,
@@ -30,11 +41,11 @@ export function spawnCat() {
 			hoverText: "Pick hair"
 		}
 	}, () => {
-
 		actionEvents.emit('action', {
 			type: 'CUSTOM',
 			parameters: { id: 'get_hair_action' },
 		})
+
 	})
 
 	utils.tweens.startTranslation(cat, initialPosition, endPosition, 2, utils.InterpolationType.LINEAR, () => {
@@ -60,6 +71,14 @@ export function spawnCat() {
 		]
 	})
 
+	questProgress.on("step", (stepNumber: number) => {
+
+		if (!catIsOut) return
+		// remove click from cat
+		if (stepNumber == StepsEnum.catGuy_step) {
+			PointerEvents.deleteFrom(cat)
+		}
+	})
 
 
 }

@@ -445,16 +445,16 @@
       "default": true,
       "position": {
         "x": [
-          0,
-          3
+          60,
+          63
         ],
         "y": [
-          0,
-          0
+          10,
+          15
         ],
         "z": [
-          0,
-          3
+          135,
+          145
         ]
       },
       "cameraTarget": {
@@ -466,7 +466,11 @@
   ],
   "requiredPermissions": [
     "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
-    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
+    "ALLOW_MEDIA_HOSTNAMES"
+  ],
+  "allowedMediaHostnames": [
+    "decentraland.org"
   ],
   "featureToggles": {}
 }

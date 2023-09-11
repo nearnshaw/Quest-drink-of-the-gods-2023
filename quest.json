@@ -1,7 +1,7 @@
 {
 	"name": "The drink of the gods",
 	"description": "Collect all the ingredients to make the perfect drink",
-	"imageUrl": "",
+	"imageUrl": "https://github.com/decentraland-scenes/Awesome-Repository/blob/master/screenshots/genesis.jpg",
 	"definition": {
 			"steps": [{
 					"id": "talk_octo_1_step",
@@ -140,7 +140,7 @@
 				"stepTo": "calis_step"
 		},{
 			"stepFrom": "calis_step",
-				"stepTo": "talk_octo_3_step"
+				"stepTo": "talk_octo_4_step"
 		}
 		]
 	}
