@@ -15,7 +15,7 @@ export function spawnCat() {
 	if (catIsOut) return
 	catIsOut = true
 
-	const initialPosition = Vector3.create(65.8, 0, 74.08)
+	const initialPosition = Vector3.create(65.8, 0.05, 74.08)
 	const initialRotation = Quaternion.fromEulerDegrees(0, -26.92, 0)
 	const endPosition = Vector3.add(initialPosition, Vector3.rotate(Vector3.Forward(), initialRotation))
 
@@ -23,7 +23,7 @@ export function spawnCat() {
 	Transform.create(cat, {
 		position: initialPosition,
 		rotation: initialRotation,
-		scale: Vector3.create(0.77, 0.77, 0.77)
+		scale: Vector3.create(0.70, 0.70, 0.70)
 
 	})
 

@@ -6,11 +6,10 @@ import { startEvent, actionEvents, questProgress } from './events'
 import { catIsOut, spawnCat } from './cat';
 import { StepsEnum } from '.';
 import * as utils from '@dcl-sdk/utils'
+import { placeInHand } from './drink'
+
 let octo: Entity
 let catGuy: Entity
-
-
-
 export let octoState: StepsEnum = StepsEnum.not_started
 
 export function addNPCs() {
@@ -62,10 +61,6 @@ export function addNPCs() {
 						npc.talk(octo, OctoQuest, 'done') // 23
 						break
 				}
-
-				console.log('npc activated');
-
-
 			},
 			portrait: `images/portraits/bartender.png`,
 			//dialogSound: `sounds/navigationForward.mp3`,
@@ -80,7 +75,6 @@ export function addNPCs() {
 
 	catGuy = npc.create(
 		{ position: Vector3.create(65.53, 0.11, 74.18), rotation: Quaternion.fromEulerDegrees(0, -90, 0) },
-		//NPC Data Object
 		{
 			type: npc.NPCType.CUSTOM,
 			model: 'assets/models/NPCs/cat_guySittedV12.glb',
@@ -91,12 +85,13 @@ export function addNPCs() {
 			//dialogSound: `sounds/navigationForward.mp3`,
 			onActivate: () => {
 				console.log('npc activated');
-				//switch (octoState) {
-				//	case 1:
-				npc.talk(catGuy, catQuest)
-				npc.playAnimation(catGuy, `talk`)
-				//break
-				//}
+				if (octoState === StepsEnum.talk_octo_1_step) {
+					npc.talk(catGuy, catQuest)
+					npc.playAnimation(catGuy, `talk`)
+				}
+
+
+
 			},
 			onWalkAway: () => {
 				npc.playAnimation(catGuy, `idle`)
@@ -112,23 +107,22 @@ export function backToIdle() {
 }
 
 
-
 export let catQuest: npc.Dialog[] = [
 	{
 		text: `Hey there! Let me introduce myself. I’m the cat guy`,
-		//skipable: true,
+		skipable: true,
 	},
 	{
 		text: `That’s what everyone calls me. Or well, my cats don’t call me anything really, I wish they did. But if people other than my cats were to hang out with me, that’s what they’d call me for sure.`,
-		//skipable: true,
+		skipable: true,
 	},
 	{
 		text: "Oh so you're also into that weird fad of drinking cat hairs, huh?",
-		//skipable: true,
+		skipable: true,
 	},
 	{
 		text: "Pretty strange if you ask me. Then they say I'm the freak just because I eat cat food.",
-		//skipable: true,
+		skipable: true,
 		triggeredByNext: () => {
 
 			actionEvents.emit('action', {
@@ -143,13 +137,12 @@ export let catQuest: npc.Dialog[] = [
 	},
 	{
 		text: "Well, if you really want to go forward with that... here's whiskers. You can pinch some of his hairs and be done with it.",
-		//skipable: true,
+		skipable: true,
 		isEndOfDialog: true,
 	},
 	{
 		name: 'collect',
 		text: 'Be gentle, you weirdo!',
-		//skipable: true,
 		isEndOfDialog: true,
 	},
 ]
@@ -211,7 +204,6 @@ export let OctoQuest: npc.Dialog[] = [
 		text: `Let's start with that. Bring me some cat hairs first so I can get that infusion going, and then I'll tell you what I need next.`,
 		skipable: true,
 		triggeredByNext: () => {
-			//updateQuests()
 			backToIdle()
 		},
 		isEndOfDialog: true,
@@ -232,7 +224,7 @@ export let OctoQuest: npc.Dialog[] = [
 		image: {
 			path: 'images/quest/berryThumb.png',
 			offsetY: 20,
-			offsetX: -300,
+			offsetX: -450,
 			section: { sourceHeight: 512, sourceWidth: 512 },
 		},
 	},
@@ -242,7 +234,7 @@ export let OctoQuest: npc.Dialog[] = [
 		image: {
 			path: 'images/quest/berryThumb.png',
 			offsetY: 20,
-			offsetX: -400,
+			offsetX: -450,
 			section: { sourceHeight: 512, sourceWidth: 512 },
 		},
 
@@ -263,7 +255,7 @@ export let OctoQuest: npc.Dialog[] = [
 		image: {
 			path: 'images/quest/kimkimThumb.png',
 			offsetY: 10,
-			offsetX: -350,
+			offsetX: -450,
 			section: { sourceHeight: 512, sourceWidth: 512 },
 		},
 	},
@@ -273,7 +265,7 @@ export let OctoQuest: npc.Dialog[] = [
 		image: {
 			path: 'images/quest/vineThumb.png',
 			offsetY: 15,
-			offsetX: -20,
+			offsetX: -450,
 			section: { sourceHeight: 512, sourceWidth: 512 },
 		},
 	},
@@ -283,7 +275,7 @@ export let OctoQuest: npc.Dialog[] = [
 		image: {
 			path: 'images/quest/vineThumb.png',
 			offsetY: 15,
-			offsetX: -20,
+			offsetX: -450,
 			section: { sourceHeight: 512, sourceWidth: 512 },
 		},
 	},
@@ -298,7 +290,6 @@ export let OctoQuest: npc.Dialog[] = [
 				type: 'CUSTOM',
 				parameters: { id: 'talk_octo_2_action' },
 			})
-			//updateQuests()
 		},
 		isEndOfDialog: true,
 	},
@@ -322,7 +313,6 @@ export let OctoQuest: npc.Dialog[] = [
 				type: 'CUSTOM',
 				parameters: { id: 'talk_octo_3_action' },
 			})
-			//updateQuests()
 
 			backToIdle()
 		},
@@ -344,7 +334,7 @@ export let OctoQuest: npc.Dialog[] = [
 		buttons: [
 			{
 				label: 'YES',
-				goToDialog: 'ingredients',
+				goToDialog: 9,// 'ingredients',
 			},
 			{ label: 'NO', goToDialog: 'end' },
 		],
@@ -374,11 +364,9 @@ export let OctoQuest: npc.Dialog[] = [
 		triggeredByNext: () => {
 			// arrow.hide()
 			npc.playAnimation(octo, 'CalisPrep', true, 7.17)
-
-			//octo.getComponent(NPCTriggerComponent).onCameraExit = () => { }
-			// prepareOctoTrip()
 			utils.timers.setTimeout(() => {
 				npc.talk(octo, OctoQuest, 'serveDrink')
+				placeInHand()
 				//Calis1.pickup(() => {
 				// setStreamVolume(0.5)
 				//})
@@ -395,8 +383,6 @@ export let OctoQuest: npc.Dialog[] = [
 				type: 'CUSTOM',
 				parameters: { id: 'talk_octo_4_action' },
 			})
-			//updateQuests()
-			//octoTrip()
 		},
 		isEndOfDialog: true,
 	},
@@ -405,40 +391,4 @@ export let OctoQuest: npc.Dialog[] = [
 		text: `Alright, I hope you enjoyed that!  It's not something you get to drink every day!`,
 		isEndOfDialog: true,
 	},
-]
-
-
-
-//// TEST
-
-export let testscript: npc.Dialog[] = [
-	{
-		text: `Hi there! Welcome to the example npc scene.`
-		// portrait: {
-		//   path: 'images/npc.png'
-		// }
-	},
-	{
-		text: `Can you help me finding my missing gems? Can you help me finding my missing gems? Can you help me finding my missing gems?`,
-		isQuestion: true,
-		buttons: [
-			{ label: `Yes!`, goToDialog: 2 },
-			{ label: `I'm busy`, goToDialog: 4 }
-			// { label: `Leave me alone`, goToDialog: 4, triggeredActions:()=>{
-			//   console.log('yes i clicked leave me alone')
-			// } }
-		]
-	},
-	{
-		text: `Ok, awesome, thanks!`
-	},
-	{
-		text: `I need you to find 10 gems scattered around this scene, go find them!`,
-		isEndOfDialog: true
-	},
-	{
-		text: `Ok, come back soon`,
-		isEndOfDialog: true,
-		name: 'testing'
-	}
 ]
