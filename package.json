@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@dcl-sdk/utils": "^1.1.2",
-    "@dcl/quests-client": "^0.1.0-20230911153915.commit-fb877b5",
+    "@dcl/quests-client": "^0.1.0-20230913151216.commit-df14a43",
     "dcl-npc-toolkit": "^1.1.4",
     "mitt": "^3.0.1"
   },

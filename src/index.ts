@@ -2,12 +2,13 @@ import { ColliderLayer, engine, executeTask, GltfContainer, InputAction, inputSy
 
 
 import { addNPCs } from './npcs'
-import { Action, createQuestsClient, QuestInstance } from '@dcl/quests-client'
+import { createQuestsClient, QuestInstance } from '@dcl/quests-client'
 import { startEvent, actionEvents, questProgress } from './events'
 import { addCollectibles, makeQuestCollectible } from './quest_collectibles'
 import { hud, setupUi } from './setupUI'
 import { createQuestHUD, QuestUI } from '@dcl/quests-client/dist/hud'
 import { placeInHand } from './drink'
+import { Action } from '@dcl/quests-client/dist/protocol/decentraland/quests/definitions.gen'
 
 
 const serviceUrl = 'wss://quests-rpc.decentraland.org'
@@ -98,33 +99,6 @@ export function main() {
 
 }
 
-function generateQuestUI(questInstance: QuestInstance): QuestUI {
-	const steps: QuestUI['steps'] = []
-	const nextSteps = []
-	if (questInstance.quest.definition?.steps) {
-		for (const step of questInstance.quest.definition?.steps) {
-			if (questInstance.state.currentSteps[step.id]) {
-				const content = questInstance.state.currentSteps[step.id]
-				const newTasks = step.tasks.map((task) => {
-					return {
-						description: task.description,
-						done: !!content.tasksCompleted.find((t) => t.id == task.id)
-					}
-				})
-				steps.push({ name: step.description, tasks: newTasks })
-				nextSteps.push(
-					...questInstance.quest.definition?.connections
-						.filter((conn) => conn.stepFrom === step.id)
-						.map(
-							(conn) => questInstance.quest.definition?.steps.find((step) => step.id === conn.stepTo)?.description || ''
-						)
-				)
-			}
-		}
-	}
-	const ui = { name: questInstance.quest.name, steps, nextSteps }
-	return ui
-}
 
 
 function updateInternalState(questInstance: QuestInstance) {
