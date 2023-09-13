@@ -2,8 +2,8 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "SDK7 Scene Template",
-    "description": "template scene with SDK7",
+    "title": "The drink of the gods 2023",
+    "description": "A scene that demonstrates using quests",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
@@ -469,8 +469,11 @@
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
     "ALLOW_MEDIA_HOSTNAMES"
   ],
-  "allowedMediaHostnames": [
+	"allowedMediaHostnames": [
     "decentraland.org"
   ],
-  "featureToggles": {}
+  "featureToggles": {},
+	"worldConfiguration": {
+    "name": "drinkofthegods.dcl.eth"
+  }
 }

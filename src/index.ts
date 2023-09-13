@@ -10,8 +10,8 @@ import { createQuestHUD, QuestUI } from '@dcl/quests-client/dist/hud'
 import { placeInHand } from './drink'
 
 
-const serviceUrl = 'wss://quests-rpc.decentraland.zone'
-const QUEST_ID = '2838b81c-7096-449f-b8f9-c6ebe696c774'
+const serviceUrl = 'wss://quests-rpc.decentraland.org'
+const QUEST_ID = 'df110232-01d7-4946-9582-66e3ef53170c'
 
 export enum StepsEnum {
 	not_started = 0,
