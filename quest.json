@@ -5,10 +5,10 @@
 	"definition": {
 			"steps": [{
 					"id": "talk_octo_1_step",
-					"description": "Talk to the Octopus Barman",
+					"description": "Talk to the Octopus",
 					"tasks": [{
 							"id": "talk_octo_1_task",
-							"description": "",
+							"description": "Talk to the Octopus Barman",
 							"actionItems": [{
 								"type": "CUSTOM",
 								"parameters": { "id": "talk_octo_1_action" }
@@ -79,10 +79,10 @@
 	},
 	{
 		"id": "calis_step",
-		"description": "Find the golden Calis",
+		"description": "Find the golden Chalice",
 		"tasks": [{
 				"id": "calis_task",
-				"description": "",
+				"description": "Find a golden Chalice",
 				"actionItems": [{
 					"type": "CUSTOM",
 					"parameters": { "id": "calis_action" }
@@ -94,7 +94,7 @@
 		"description": "Talk to the Octopus Barman",
 		"tasks": [{
 				"id": "talk_octo_2_task",
-				"description": "",
+				"description": "Bring the cat haris to the Octopus",
 				"actionItems": [{
 					"type": "CUSTOM",
 					"parameters": { "id": "talk_octo_2_action" }
@@ -102,10 +102,10 @@
 		}]
 },{
 	"id": "talk_octo_3_step",
-	"description": "Talk to the Octopus Barman",
+	"description": "Talk to the Octopus",
 	"tasks": [{
 			"id": "talk_octo_3_task",
-			"description": "",
+			"description": "Bring the herbs to the Octopus",
 			"actionItems": [{
 				"type": "CUSTOM",
 				"parameters": { "id": "talk_octo_3_action" }
@@ -113,10 +113,10 @@
 	}]
 }, {
 	"id": "talk_octo_4_step",
-	"description": "Talk to the Octopus Barman",
+	"description": "Talk to the Octopus",
 	"tasks": [{
 			"id": "talk_octo_4_task",
-			"description": "",
+			"description": "Bring the Chalice to the Octopus",
 			"actionItems": [{
 				"type": "CUSTOM",
 				"parameters": { "id": "talk_octo_4_action" }
