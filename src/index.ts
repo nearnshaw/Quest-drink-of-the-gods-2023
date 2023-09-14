@@ -1,6 +1,6 @@
-import { ColliderLayer, engine, executeTask, GltfContainer, InputAction, inputSystem, Material, MeshCollider, pointerEventsSystem, TextAlignMode, TextShape } from '@dcl/sdk/ecs'
+import { ColliderLayer, engine, Entity, executeTask, GltfContainer, InputAction, inputSystem, Material, MeshCollider, pointerEventsSystem, TextAlignMode, TextShape, Transform } from '@dcl/sdk/ecs'
 
-
+import * as utils from '@dcl-sdk/utils'
 import { addNPCs } from './npcs'
 import { createQuestsClient, QuestInstance } from '@dcl/quests-client'
 import { startEvent, actionEvents, questProgress } from './events'
@@ -9,6 +9,7 @@ import { hud, setupUi } from './setupUI'
 import { createQuestHUD, QuestUI } from '@dcl/quests-client/dist/hud'
 import { placeInHand } from './drink'
 import { Action } from '@dcl/quests-client/dist/protocol/decentraland/quests/definitions.gen'
+import { Vector3 } from '@dcl/sdk/math'
 
 
 const serviceUrl = 'wss://quests-rpc.decentraland.org'
@@ -97,6 +98,11 @@ export function main() {
 	// add plants and calis
 	addCollectibles()
 
+
+	// play sounds
+	utils.playSound("assets/sounds/medieval-town.mp3", true, Vector3.create(86, 1, 110))
+	utils.playSound("assets/sounds/water.mp3", true, Vector3.create(200, 1, 177))
+
 }
 
 
@@ -130,3 +136,4 @@ function updateInternalState(questInstance: QuestInstance) {
 		}
 	}
 }
+

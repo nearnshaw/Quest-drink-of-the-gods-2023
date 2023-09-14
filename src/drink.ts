@@ -1,6 +1,6 @@
 import { AvatarAnchorPointType, AvatarAttach, AvatarModifierArea, CameraMode, CameraModeArea, CameraType, GltfContainer, InputAction, PointerEventType, Transform, engine, inputSystem } from "@dcl/sdk/ecs";
 import { Quaternion, Vector3 } from "@dcl/sdk/math";
-import { getPlayerPosition, playSound } from "./helpers";
+import * as utils from '@dcl-sdk/utils'
 
 export function placeInHand() {
 
@@ -31,7 +31,7 @@ export function placeInHand() {
 	engine.addSystem(() => {
 		if (inputSystem.isTriggered(InputAction.IA_SECONDARY, PointerEventType.PET_DOWN)) {
 			// Logic in response to button F press
-			playSound('assets/sounds/swallow.mp3', false, getPlayerPosition())
+			utils.playSound('assets/sounds/swallow.mp3', false)
 		}
 	})
 }
