@@ -342,7 +342,7 @@ export let OctoQuest: npc.Dialog[] = [
 
 	{
 		name: 'noHairs',
-		text: "We're still missing the key ingredient, the cat hairs! I refuse to do this without following the recipe to the letter. Look for the cat guy, he's sitting somewhere south of here in this same plaza.",
+		text: "We're still missing the key ingredient, the cat hairs! I refuse to do this without following the recipe to the letter. Look for the cat guy, he's sitting somewhere west of here in this same plaza.",
 		skipable: true,
 		triggeredByNext: () => {
 			backToIdle()
@@ -351,7 +351,7 @@ export let OctoQuest: npc.Dialog[] = [
 	},
 	{
 		name: 'noCalis',
-		text: "We have all the ingredients, but we wouldn't do the drink justice if we just served it in a regular glass. Go to the Chaman on Gamer Plaza, he'll know where you can get something worthy of it.",
+		text: "We have all the ingredients, but we wouldn't do the drink justice if we just served it in a regular glass. Go to the castle and look for something worthy of it.",
 		skipable: true,
 		triggeredByNext: () => {
 			backToIdle()

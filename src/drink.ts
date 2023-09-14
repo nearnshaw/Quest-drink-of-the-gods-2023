@@ -1,5 +1,6 @@
-import { AvatarAnchorPointType, AvatarAttach, AvatarModifierArea, CameraMode, CameraModeArea, CameraType, GltfContainer, Transform, engine } from "@dcl/sdk/ecs";
+import { AvatarAnchorPointType, AvatarAttach, AvatarModifierArea, CameraMode, CameraModeArea, CameraType, GltfContainer, InputAction, PointerEventType, Transform, engine, inputSystem } from "@dcl/sdk/ecs";
 import { Quaternion, Vector3 } from "@dcl/sdk/math";
+import { getPlayerPosition, playSound } from "./helpers";
 
 export function placeInHand() {
 
@@ -25,5 +26,12 @@ export function placeInHand() {
 	CameraModeArea.create(camearaModifier, {
 		area: Vector3.create(10, 10, 10),
 		mode: CameraType.CT_FIRST_PERSON,
+	})
+
+	engine.addSystem(() => {
+		if (inputSystem.isTriggered(InputAction.IA_SECONDARY, PointerEventType.PET_DOWN)) {
+			// Logic in response to button F press
+			playSound('assets/sounds/swallow.mp3', false, getPlayerPosition())
+		}
 	})
 }
