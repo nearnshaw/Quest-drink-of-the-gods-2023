@@ -469,11 +469,22 @@
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
     "ALLOW_MEDIA_HOSTNAMES"
   ],
-	"allowedMediaHostnames": [
+  "allowedMediaHostnames": [
     "decentraland.org"
   ],
-  "featureToggles": {},
-	"worldConfiguration": {
-    "name": "drinkofthegods.dcl.eth"
-  }
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "worldConfiguration": {
+    "name": "maximocossetti.dcl.eth"
+  },
+  "skyboxConfig": {},
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "f07fd718-6e71-44db-bc01-10549be18866"
+  },
+  "creator": "",
+  "authoritativeMultiplayer": true,
+  "multiplayerId": "maximocossetti"
 }

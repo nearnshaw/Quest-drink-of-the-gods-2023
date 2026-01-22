@@ -1,6 +1,6 @@
-import { AvatarAnchorPointType, AvatarAttach, AvatarModifierArea, CameraMode, CameraModeArea, CameraType, GltfContainer, InputAction, PointerEventType, Transform, engine, inputSystem } from "@dcl/sdk/ecs";
+import { AudioSource, AvatarAnchorPointType, AvatarAttach, AvatarModifierArea, CameraMode, CameraModeArea, CameraType, GltfContainer, InputAction, PointerEventType, Transform, engine, inputSystem } from "@dcl/sdk/ecs";
 import { Quaternion, Vector3 } from "@dcl/sdk/math";
-import * as utils from '@dcl-sdk/utils'
+import { isServer } from '@dcl/sdk/network'
 
 export function placeInHand() {
 
@@ -28,10 +28,18 @@ export function placeInHand() {
 		mode: CameraType.CT_FIRST_PERSON,
 	})
 
-	engine.addSystem(() => {
-		if (inputSystem.isTriggered(InputAction.IA_SECONDARY, PointerEventType.PET_DOWN)) {
-			// Logic in response to button F press
-			utils.playSound('assets/sounds/swallow.mp3', false)
-		}
-	})
+	AudioSource.create(engine.PlayerEntity)
+	AudioSource.playSound(engine.PlayerEntity, 'assets/sounds/choir.mp3', true)
+
+
+	// Only add sound system on client side
+	if (!isServer()) {
+		engine.addSystem(() => {
+			if (inputSystem.isTriggered(InputAction.IA_SECONDARY, PointerEventType.PET_DOWN)) {
+				// Logic in response to button F press
+				AudioSource.playSound(calis, 'assets/sounds/swallow.mp3', false)
+				
+			}
+		})
+	}
 }

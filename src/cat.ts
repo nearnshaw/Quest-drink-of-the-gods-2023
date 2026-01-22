@@ -1,12 +1,15 @@
-import { Animator, ColliderLayer, InputAction, MeshCollider, PointerEvents, Transform } from "@dcl/sdk/ecs";
+import { Animator, AudioSource, ColliderLayer, InputAction, MeshCollider, PointerEvents, Transform } from "@dcl/sdk/ecs";
 import { GltfContainer } from "@dcl/sdk/ecs";
 import { pointerEventsSystem } from "@dcl/sdk/ecs";
 import { engine } from "@dcl/sdk/ecs";
 import { Quaternion } from "@dcl/sdk/math";
 import { Vector3 } from "@dcl/sdk/math";
-import { startEvent, actionEvents, questProgress } from './events'
+import { questProgress } from './events'
 import * as utils from '@dcl-sdk/utils'
-import { StepsEnum } from ".";
+import { StepsEnum } from "./shared/questMessages";
+import { sendQuestAction } from './client/questClient';
+import * as npc from 'dcl-npc-toolkit'
+import { catGuy, catCollect } from './npcs';
 
 export let catIsOut: boolean = false
 
@@ -32,26 +35,14 @@ export function spawnCat() {
     visibleMeshesCollisionMask: ColliderLayer.CL_POINTER
   })
 
-  MeshCollider.setBox(cat)
-
-  pointerEventsSystem.onPointerDown({
-    entity: cat,
-    opts: {
-      button: InputAction.IA_PRIMARY,
-      hoverText: "Pick hair"
-    }
-  }, () => {
-    actionEvents.emit('action', {
-      type: 'CUSTOM',
-      parameters: { id: 'get_hair_action' },
-    })
-
-  })
+  
 
   utils.tweens.startTranslation(cat, initialPosition, endPosition, 2, utils.InterpolationType.LINEAR, () => {
 
     Animator.stopAllAnimations(cat)
     Animator.playSingleAnimation(cat, "IdleNorm")
+
+    createClickArea(endPosition)
   })
 
   Animator.create(cat, {
@@ -79,4 +70,37 @@ export function spawnCat() {
   })
 
 
+}
+
+
+function createClickArea(position: Vector3) {
+  const clickArea = engine.addEntity()
+  Transform.create(clickArea, {
+    position: position,
+    rotation: Quaternion.fromEulerDegrees(0, 0, 0),
+    scale: Vector3.create(1, 1, 1)
+  })
+
+
+  MeshCollider.setBox(clickArea)
+
+  pointerEventsSystem.onPointerDown({
+    entity: clickArea,
+    opts: {
+      button: InputAction.IA_PRIMARY,
+      hoverText: "Pick hair"
+    }
+  }, () => {
+    sendQuestAction('get_hair_action')
+
+    // Activate catCollect dialog from catGuy NPC
+    if (catGuy) {
+      npc.talk(catGuy, catCollect)
+    }
+    AudioSource.create(clickArea)
+    AudioSource.playSound(clickArea, 'assets/sounds/grab.mp3', true)
+
+    MeshCollider.deleteFrom(clickArea)
+    //engine.removeEntity(clickArea)
+  })
 }

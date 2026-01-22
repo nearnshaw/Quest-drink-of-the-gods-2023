@@ -216,12 +216,17 @@
             "parent": 0
           }
         },
-        "520": {
+        "519": {
           "json": {
             "position": {
-              "x": 157.3191680908203,
-              "y": 3.5740292072296143,
-              "z": 175.34310913085938
+              "x": 55.5,
+              "y": 0,
+              "z": 146.25
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
             },
             "rotation": {
               "x": 0,
@@ -229,10 +234,26 @@
               "z": 0,
               "w": 1
             },
+            "parent": 0
+          }
+        },
+        "520": {
+          "json": {
+            "position": {
+              "x": 157.3191680908203,
+              "y": 3.5740292072296143,
+              "z": 175.34310913085938
+            },
             "scale": {
               "x": 1,
               "y": 1,
               "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
             },
             "parent": 0
           }
@@ -475,16 +496,16 @@
               "y": 3.3111588954925537,
               "z": 170.62669372558594
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -496,16 +517,16 @@
               "y": 3.5905866622924805,
               "z": 154.76766967773438
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -517,16 +538,16 @@
               "y": 3.5905866622924805,
               "z": 128.0462188720703
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -538,16 +559,16 @@
               "y": 3.7655742168426514,
               "z": 136.80252075195312
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -559,16 +580,16 @@
               "y": 0.7824305295944214,
               "z": 235.8827667236328
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -580,16 +601,16 @@
               "y": 0.43399274349212646,
               "z": 204.66360473632812
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -601,16 +622,16 @@
               "y": 0.7781236171722412,
               "z": 230.6564178466797
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -622,16 +643,16 @@
               "y": 7.664687156677246,
               "z": 222.05804443359375
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -640,19 +661,19 @@
           "json": {
             "position": {
               "x": 177.94110107421875,
-              "y": 34.031803131103516,
-              "z": 104.06525421142578
+              "y": 35.28436279296875,
+              "z": 108.86680603027344
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
             },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -660,20 +681,20 @@
         "541": {
           "json": {
             "position": {
-              "x": 184.81463623046875,
-              "y": 35.063446044921875,
-              "z": 120.33301544189453
+              "x": 184.8623504638672,
+              "y": 36.41227340698242,
+              "z": 120.25418853759766
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
             },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -685,18 +706,480 @@
               "y": 33.60453796386719,
               "z": 105.97589874267578
             },
+            "scale": {
+              "x": 1,
+              "y": 1.0000001192092896,
+              "z": 1.0000001192092896
+            },
             "rotation": {
               "x": 0.5988456010818481,
               "y": 0,
               "z": 0,
               "w": 0.8008645176887512
             },
+            "parent": 0
+          }
+        },
+        "543": {
+          "json": {
+            "position": {
+              "x": 65.60420227050781,
+              "y": 0.10859979689121246,
+              "z": 74.10599517822266
+            },
             "scale": {
               "x": 1,
-              "y": 1.0000001192092896,
-              "z": 1.0000001192092896
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.7376872897148132,
+              "z": 0,
+              "w": 0.6751425266265869
             },
             "parent": 0
+          }
+        },
+        "545": {
+          "json": {
+            "position": {
+              "x": 57.58000183105469,
+              "y": 0,
+              "z": 74.91000366210938
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "546": {
+          "json": {
+            "position": {
+              "x": 55.51140594482422,
+              "y": 5.418379783630371,
+              "z": 73.22496032714844
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "547": {
+          "json": {
+            "position": {
+              "x": 161.20401000976562,
+              "y": 2.9989278316497803,
+              "z": 103.50296783447266
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "548": {
+          "json": {
+            "position": {
+              "x": 168.78756713867188,
+              "y": 2.9989278316497803,
+              "z": 164.91429138183594
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "549": {
+          "json": {
+            "position": {
+              "x": 36.624420166015625,
+              "y": -39.53455352783203,
+              "z": 164.91429138183594
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "550": {
+          "json": {
+            "position": {
+              "x": 149.46434020996094,
+              "y": 10.477537155151367,
+              "z": 202.27867126464844
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "551": {
+          "json": {
+            "position": {
+              "x": 216.45140075683594,
+              "y": 2.9989278316497803,
+              "z": 166.84303283691406
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "552": {
+          "json": {
+            "position": {
+              "x": 250.51116943359375,
+              "y": 21.62441635131836,
+              "z": 35.35185241699219
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "553": {
+          "json": {
+            "position": {
+              "x": 206.16978454589844,
+              "y": 23.088342666625977,
+              "z": 61.52415084838867
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "554": {
+          "json": {
+            "position": {
+              "x": 209.91592407226562,
+              "y": 21.377281188964844,
+              "z": 65.52474975585938
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "core::Animator",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBAnimator"
+      },
+      "data": {
+        "520": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "525": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "526": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "527": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "528": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "529": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "532": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "536": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "pick",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "537": {
+          "json": {
+            "states": []
+          }
+        },
+        "543": {
+          "json": {
+            "states": [
+              {
+                "clip": "idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              },
+              {
+                "clip": "talk",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "core::AudioSource",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBAudioSource"
+      },
+      "data": {
+        "519": {
+          "json": {
+            "volume": 1,
+            "audioClipUrl": "assets/sounds/grab.mp3"
           }
         }
       }
@@ -738,6 +1221,13 @@
         "518": {
           "json": {
             "src": "assets/models/berry.glb"
+          }
+        },
+        "519": {
+          "json": {
+            "src": "assets/asset-packs/hidrant/Hidrant.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 3
           }
         },
         "520": {
@@ -854,6 +1344,83 @@
           "json": {
             "src": "assets/models/calisEmpty.glb"
           }
+        },
+        "543": {
+          "json": {
+            "src": "assets/models/NPCs/cat_guySittedV12.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 3
+          }
+        },
+        "545": {
+          "json": {
+            "src": "assets/asset-packs/box_big/Box Big.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 3
+          }
+        },
+        "546": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "547": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "548": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "549": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "550": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "551": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "552": {
+          "json": {
+            "src": "assets/asset-packs/point_light/pointlight.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "553": {
+          "json": {
+            "src": "assets/asset-packs/point_light/pointlight.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "554": {
+          "json": {
+            "src": "assets/asset-packs/ambient_sound_-_market/ambient_sound.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 0
+          }
         }
       }
     },
@@ -898,6 +1465,11 @@
         "518": {
           "json": {
             "value": "berry4"
+          }
+        },
+        "519": {
+          "json": {
+            "value": "Hidrant"
           }
         },
         "520": {
@@ -1014,6 +1586,342 @@
           "json": {
             "value": "calis4"
           }
+        },
+        "543": {
+          "json": {
+            "value": "catguy"
+          }
+        },
+        "545": {
+          "json": {
+            "value": "Box Big"
+          }
+        },
+        "546": {
+          "json": {
+            "value": "Ambient Sound - Market"
+          }
+        },
+        "547": {
+          "json": {
+            "value": "Ambient Sound - Water"
+          }
+        },
+        "548": {
+          "json": {
+            "value": "Ambient Sound - Water_2"
+          }
+        },
+        "549": {
+          "json": {
+            "value": "Ambient Sound - Water_3"
+          }
+        },
+        "550": {
+          "json": {
+            "value": "Ambient Sound - Market_2"
+          }
+        },
+        "551": {
+          "json": {
+            "value": "Ambient Sound - Water_4"
+          }
+        },
+        "552": {
+          "json": {
+            "value": "Point light"
+          }
+        },
+        "553": {
+          "json": {
+            "value": "Point light_2"
+          }
+        },
+        "554": {
+          "json": {
+            "value": "Ambient Sound - Water_5"
+          }
+        }
+      }
+    },
+    {
+      "name": "core::VisibilityComponent",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBVisibilityComponent"
+      },
+      "data": {
+        "546": {
+          "json": {
+            "visible": false
+          }
+        },
+        "547": {
+          "json": {
+            "visible": false
+          }
+        },
+        "548": {
+          "json": {
+            "visible": false
+          }
+        },
+        "549": {
+          "json": {
+            "visible": false
+          }
+        },
+        "550": {
+          "json": {
+            "visible": false
+          }
+        },
+        "551": {
+          "json": {
+            "visible": false
+          }
+        },
+        "552": {
+          "json": {
+            "visible": false
+          }
+        },
+        "553": {
+          "json": {
+            "visible": false
+          }
+        },
+        "554": {
+          "json": {
+            "visible": false
+          }
+        }
+      }
+    },
+    {
+      "name": "core-schema::Tags",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "tags": [
+              "Tag Group 1",
+              "Tag Group 2",
+              "Tag Group 3",
+              "Tag Group 4",
+              "Vine",
+              "Kimkim",
+              "Berry",
+              "Calis"
+            ]
+          }
+        },
+        "520": {
+          "json": {
+            "tags": [
+              "Berry"
+            ]
+          }
+        },
+        "521": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "523": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "525": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "526": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "527": {
+          "json": {
+            "tags": [
+              "Kimkim"
+            ]
+          }
+        },
+        "528": {
+          "json": {
+            "tags": [
+              "Kimkim"
+            ]
+          }
+        },
+        "529": {
+          "json": {
+            "tags": [
+              "Kimkim"
+            ]
+          }
+        },
+        "530": {
+          "json": {
+            "tags": [
+              "Kimkim"
+            ]
+          }
+        },
+        "531": {
+          "json": {
+            "tags": [
+              "Calis"
+            ]
+          }
+        },
+        "532": {
+          "json": {
+            "tags": [
+              "Berry"
+            ]
+          }
+        },
+        "533": {
+          "json": {
+            "tags": [
+              "Berry"
+            ]
+          }
+        },
+        "534": {
+          "json": {
+            "tags": [
+              "Berry"
+            ]
+          }
+        },
+        "535": {
+          "json": {
+            "tags": [
+              "Berry"
+            ]
+          }
+        },
+        "536": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "537": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "538": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "539": {
+          "json": {
+            "tags": [
+              "Vine"
+            ]
+          }
+        },
+        "540": {
+          "json": {
+            "tags": [
+              "Calis"
+            ]
+          }
+        },
+        "541": {
+          "json": {
+            "tags": [
+              "Calis"
+            ]
+          }
+        },
+        "542": {
+          "json": {
+            "tags": [
+              "Calis"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "core::LightSource",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBLightSource"
+      },
+      "data": {
+        "552": {
+          "json": {
+            "active": true,
+            "color": {
+              "r": 1,
+              "g": 0.6470588445663452,
+              "b": 0
+            },
+            "intensity": 16000,
+            "range": -1,
+            "shadow": true,
+            "type": {
+              "$case": "point",
+              "point": {}
+            }
+          }
+        },
+        "553": {
+          "json": {
+            "active": true,
+            "color": {
+              "r": 1,
+              "g": 0.6470588445663452,
+              "b": 0
+            },
+            "intensity": 16000,
+            "range": -1,
+            "shadow": true,
+            "type": {
+              "$case": "point",
+              "point": {}
+            }
+          }
         }
       }
     },
@@ -1030,7 +1938,7 @@
         "serializationType": "map"
       },
       "data": {
-        "542": {
+        "0": {
           "json": {
             "gizmo": 0
           }
@@ -2779,6 +3687,2069 @@
       }
     },
     {
+      "name": "inspector::SceneMetadata-v2",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "description": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "thumbnail": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "ageRating": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "enum": [
+                "T",
+                "A"
+              ],
+              "default": "T",
+              "serializationType": "enum-string",
+              "enumObject": {
+                "Teen": "T",
+                "Adult": "A"
+              }
+            }
+          },
+          "categories": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "art",
+                  "game",
+                  "casino",
+                  "social",
+                  "music",
+                  "fashion",
+                  "crypto",
+                  "education",
+                  "shop",
+                  "business",
+                  "sports"
+                ],
+                "default": "game",
+                "serializationType": "enum-string",
+                "enumObject": {
+                  "ART": "art",
+                  "GAME": "game",
+                  "CASINO": "casino",
+                  "SOCIAL": "social",
+                  "MUSIC": "music",
+                  "FASHION": "fashion",
+                  "CRYPTO": "crypto",
+                  "EDUCATION": "education",
+                  "SHOP": "shop",
+                  "BUSINESS": "business",
+                  "SPORTS": "sports"
+                }
+              },
+              "serializationType": "array"
+            }
+          },
+          "author": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "email": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "serializationType": "utf8-string"
+              },
+              "serializationType": "array"
+            }
+          },
+          "layout": {
+            "type": "object",
+            "properties": {
+              "base": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  },
+                  "y": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  }
+                },
+                "serializationType": "map"
+              },
+              "parcels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "integer",
+                      "serializationType": "int32"
+                    },
+                    "y": {
+                      "type": "integer",
+                      "serializationType": "int32"
+                    }
+                  },
+                  "serializationType": "map"
+                },
+                "serializationType": "array"
+              }
+            },
+            "serializationType": "map"
+          },
+          "silenceVoiceChat": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          },
+          "disablePortableExperiences": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          },
+          "spawnPoints": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  },
+                  "default": {
+                    "type": "boolean",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "boolean",
+                      "serializationType": "boolean"
+                    }
+                  },
+                  "position": {
+                    "type": "object",
+                    "properties": {
+                      "x": {
+                        "type": "object",
+                        "properties": {
+                          "single": {
+                            "type": "integer",
+                            "serializationType": "int32"
+                          },
+                          "range": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer",
+                              "serializationType": "int32"
+                            },
+                            "serializationType": "array"
+                          }
+                        },
+                        "serializationType": "one-of"
+                      },
+                      "y": {
+                        "type": "object",
+                        "properties": {
+                          "single": {
+                            "type": "integer",
+                            "serializationType": "int32"
+                          },
+                          "range": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer",
+                              "serializationType": "int32"
+                            },
+                            "serializationType": "array"
+                          }
+                        },
+                        "serializationType": "one-of"
+                      },
+                      "z": {
+                        "type": "object",
+                        "properties": {
+                          "single": {
+                            "type": "integer",
+                            "serializationType": "int32"
+                          },
+                          "range": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer",
+                              "serializationType": "int32"
+                            },
+                            "serializationType": "array"
+                          }
+                        },
+                        "serializationType": "one-of"
+                      }
+                    },
+                    "serializationType": "map"
+                  },
+                  "cameraTarget": {
+                    "type": "object",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "integer",
+                          "serializationType": "int32"
+                        },
+                        "y": {
+                          "type": "integer",
+                          "serializationType": "int32"
+                        },
+                        "z": {
+                          "type": "integer",
+                          "serializationType": "int32"
+                        }
+                      },
+                      "serializationType": "map"
+                    }
+                  }
+                },
+                "serializationType": "map"
+              },
+              "serializationType": "array"
+            }
+          },
+          "skyboxConfig": {
+            "type": "object",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "object",
+              "properties": {
+                "fixedTime": {
+                  "type": "integer",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  }
+                },
+                "transitionMode": {
+                  "type": "integer",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "integer",
+                    "enum": [
+                      0,
+                      1
+                    ],
+                    "default": 0,
+                    "serializationType": "enum-int",
+                    "enumObject": {
+                      "0": "TM_FORWARD",
+                      "1": "TM_BACKWARD",
+                      "TM_FORWARD": 0,
+                      "TM_BACKWARD": 1
+                    }
+                  }
+                }
+              },
+              "serializationType": "map"
+            }
+          },
+          "creator": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "name": "The drink of the gods 2023",
+            "description": "A scene that demonstrates using quests",
+            "thumbnail": "images/scene-thumbnail.png",
+            "categories": [],
+            "author": "SDK",
+            "email": "",
+            "tags": [],
+            "layout": {
+              "parcels": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 0,
+                  "y": 3
+                },
+                {
+                  "x": 0,
+                  "y": 4
+                },
+                {
+                  "x": 0,
+                  "y": 5
+                },
+                {
+                  "x": 0,
+                  "y": 6
+                },
+                {
+                  "x": 0,
+                  "y": 7
+                },
+                {
+                  "x": 0,
+                  "y": 8
+                },
+                {
+                  "x": 0,
+                  "y": 9
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 11
+                },
+                {
+                  "x": 0,
+                  "y": 12
+                },
+                {
+                  "x": 0,
+                  "y": 13
+                },
+                {
+                  "x": 0,
+                  "y": 14
+                },
+                {
+                  "x": 0,
+                  "y": 15
+                },
+                {
+                  "x": 0,
+                  "y": 16
+                },
+                {
+                  "x": 0,
+                  "y": 17
+                },
+                {
+                  "x": 0,
+                  "y": 18
+                },
+                {
+                  "x": 0,
+                  "y": 19
+                },
+                {
+                  "x": 0,
+                  "y": 20
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                },
+                {
+                  "x": 1,
+                  "y": 4
+                },
+                {
+                  "x": 1,
+                  "y": 5
+                },
+                {
+                  "x": 1,
+                  "y": 6
+                },
+                {
+                  "x": 1,
+                  "y": 7
+                },
+                {
+                  "x": 1,
+                  "y": 8
+                },
+                {
+                  "x": 1,
+                  "y": 9
+                },
+                {
+                  "x": 1,
+                  "y": 10
+                },
+                {
+                  "x": 1,
+                  "y": 11
+                },
+                {
+                  "x": 1,
+                  "y": 12
+                },
+                {
+                  "x": 1,
+                  "y": 13
+                },
+                {
+                  "x": 1,
+                  "y": 14
+                },
+                {
+                  "x": 1,
+                  "y": 15
+                },
+                {
+                  "x": 1,
+                  "y": 16
+                },
+                {
+                  "x": 1,
+                  "y": 17
+                },
+                {
+                  "x": 1,
+                  "y": 18
+                },
+                {
+                  "x": 1,
+                  "y": 19
+                },
+                {
+                  "x": 1,
+                  "y": 20
+                },
+                {
+                  "x": 2,
+                  "y": 0
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                },
+                {
+                  "x": 2,
+                  "y": 4
+                },
+                {
+                  "x": 2,
+                  "y": 5
+                },
+                {
+                  "x": 2,
+                  "y": 6
+                },
+                {
+                  "x": 2,
+                  "y": 7
+                },
+                {
+                  "x": 2,
+                  "y": 8
+                },
+                {
+                  "x": 2,
+                  "y": 9
+                },
+                {
+                  "x": 2,
+                  "y": 10
+                },
+                {
+                  "x": 2,
+                  "y": 11
+                },
+                {
+                  "x": 2,
+                  "y": 12
+                },
+                {
+                  "x": 2,
+                  "y": 13
+                },
+                {
+                  "x": 2,
+                  "y": 14
+                },
+                {
+                  "x": 2,
+                  "y": 15
+                },
+                {
+                  "x": 2,
+                  "y": 16
+                },
+                {
+                  "x": 2,
+                  "y": 17
+                },
+                {
+                  "x": 2,
+                  "y": 18
+                },
+                {
+                  "x": 2,
+                  "y": 19
+                },
+                {
+                  "x": 2,
+                  "y": 20
+                },
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 3
+                },
+                {
+                  "x": 3,
+                  "y": 4
+                },
+                {
+                  "x": 3,
+                  "y": 5
+                },
+                {
+                  "x": 3,
+                  "y": 6
+                },
+                {
+                  "x": 3,
+                  "y": 7
+                },
+                {
+                  "x": 3,
+                  "y": 8
+                },
+                {
+                  "x": 3,
+                  "y": 9
+                },
+                {
+                  "x": 3,
+                  "y": 10
+                },
+                {
+                  "x": 3,
+                  "y": 11
+                },
+                {
+                  "x": 3,
+                  "y": 12
+                },
+                {
+                  "x": 3,
+                  "y": 13
+                },
+                {
+                  "x": 3,
+                  "y": 14
+                },
+                {
+                  "x": 3,
+                  "y": 15
+                },
+                {
+                  "x": 3,
+                  "y": 16
+                },
+                {
+                  "x": 3,
+                  "y": 17
+                },
+                {
+                  "x": 3,
+                  "y": 18
+                },
+                {
+                  "x": 3,
+                  "y": 19
+                },
+                {
+                  "x": 3,
+                  "y": 20
+                },
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 3
+                },
+                {
+                  "x": 4,
+                  "y": 4
+                },
+                {
+                  "x": 4,
+                  "y": 5
+                },
+                {
+                  "x": 4,
+                  "y": 6
+                },
+                {
+                  "x": 4,
+                  "y": 7
+                },
+                {
+                  "x": 4,
+                  "y": 8
+                },
+                {
+                  "x": 4,
+                  "y": 9
+                },
+                {
+                  "x": 4,
+                  "y": 10
+                },
+                {
+                  "x": 4,
+                  "y": 11
+                },
+                {
+                  "x": 4,
+                  "y": 12
+                },
+                {
+                  "x": 4,
+                  "y": 13
+                },
+                {
+                  "x": 4,
+                  "y": 14
+                },
+                {
+                  "x": 4,
+                  "y": 15
+                },
+                {
+                  "x": 4,
+                  "y": 16
+                },
+                {
+                  "x": 4,
+                  "y": 17
+                },
+                {
+                  "x": 4,
+                  "y": 18
+                },
+                {
+                  "x": 4,
+                  "y": 19
+                },
+                {
+                  "x": 4,
+                  "y": 20
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 1
+                },
+                {
+                  "x": 5,
+                  "y": 2
+                },
+                {
+                  "x": 5,
+                  "y": 3
+                },
+                {
+                  "x": 5,
+                  "y": 4
+                },
+                {
+                  "x": 5,
+                  "y": 5
+                },
+                {
+                  "x": 5,
+                  "y": 6
+                },
+                {
+                  "x": 5,
+                  "y": 7
+                },
+                {
+                  "x": 5,
+                  "y": 8
+                },
+                {
+                  "x": 5,
+                  "y": 9
+                },
+                {
+                  "x": 5,
+                  "y": 10
+                },
+                {
+                  "x": 5,
+                  "y": 11
+                },
+                {
+                  "x": 5,
+                  "y": 12
+                },
+                {
+                  "x": 5,
+                  "y": 13
+                },
+                {
+                  "x": 5,
+                  "y": 14
+                },
+                {
+                  "x": 5,
+                  "y": 15
+                },
+                {
+                  "x": 5,
+                  "y": 16
+                },
+                {
+                  "x": 5,
+                  "y": 17
+                },
+                {
+                  "x": 5,
+                  "y": 18
+                },
+                {
+                  "x": 5,
+                  "y": 19
+                },
+                {
+                  "x": 5,
+                  "y": 20
+                },
+                {
+                  "x": 6,
+                  "y": 0
+                },
+                {
+                  "x": 6,
+                  "y": 1
+                },
+                {
+                  "x": 6,
+                  "y": 2
+                },
+                {
+                  "x": 6,
+                  "y": 3
+                },
+                {
+                  "x": 6,
+                  "y": 4
+                },
+                {
+                  "x": 6,
+                  "y": 5
+                },
+                {
+                  "x": 6,
+                  "y": 6
+                },
+                {
+                  "x": 6,
+                  "y": 7
+                },
+                {
+                  "x": 6,
+                  "y": 8
+                },
+                {
+                  "x": 6,
+                  "y": 9
+                },
+                {
+                  "x": 6,
+                  "y": 10
+                },
+                {
+                  "x": 6,
+                  "y": 11
+                },
+                {
+                  "x": 6,
+                  "y": 12
+                },
+                {
+                  "x": 6,
+                  "y": 13
+                },
+                {
+                  "x": 6,
+                  "y": 14
+                },
+                {
+                  "x": 6,
+                  "y": 15
+                },
+                {
+                  "x": 6,
+                  "y": 16
+                },
+                {
+                  "x": 6,
+                  "y": 17
+                },
+                {
+                  "x": 6,
+                  "y": 18
+                },
+                {
+                  "x": 6,
+                  "y": 19
+                },
+                {
+                  "x": 6,
+                  "y": 20
+                },
+                {
+                  "x": 7,
+                  "y": 0
+                },
+                {
+                  "x": 7,
+                  "y": 1
+                },
+                {
+                  "x": 7,
+                  "y": 2
+                },
+                {
+                  "x": 7,
+                  "y": 3
+                },
+                {
+                  "x": 7,
+                  "y": 4
+                },
+                {
+                  "x": 7,
+                  "y": 5
+                },
+                {
+                  "x": 7,
+                  "y": 6
+                },
+                {
+                  "x": 7,
+                  "y": 7
+                },
+                {
+                  "x": 7,
+                  "y": 8
+                },
+                {
+                  "x": 7,
+                  "y": 9
+                },
+                {
+                  "x": 7,
+                  "y": 10
+                },
+                {
+                  "x": 7,
+                  "y": 11
+                },
+                {
+                  "x": 7,
+                  "y": 12
+                },
+                {
+                  "x": 7,
+                  "y": 13
+                },
+                {
+                  "x": 7,
+                  "y": 14
+                },
+                {
+                  "x": 7,
+                  "y": 15
+                },
+                {
+                  "x": 7,
+                  "y": 16
+                },
+                {
+                  "x": 7,
+                  "y": 17
+                },
+                {
+                  "x": 7,
+                  "y": 18
+                },
+                {
+                  "x": 7,
+                  "y": 19
+                },
+                {
+                  "x": 7,
+                  "y": 20
+                },
+                {
+                  "x": 8,
+                  "y": 0
+                },
+                {
+                  "x": 8,
+                  "y": 1
+                },
+                {
+                  "x": 8,
+                  "y": 2
+                },
+                {
+                  "x": 8,
+                  "y": 3
+                },
+                {
+                  "x": 8,
+                  "y": 4
+                },
+                {
+                  "x": 8,
+                  "y": 5
+                },
+                {
+                  "x": 8,
+                  "y": 6
+                },
+                {
+                  "x": 8,
+                  "y": 7
+                },
+                {
+                  "x": 8,
+                  "y": 8
+                },
+                {
+                  "x": 8,
+                  "y": 9
+                },
+                {
+                  "x": 8,
+                  "y": 10
+                },
+                {
+                  "x": 8,
+                  "y": 11
+                },
+                {
+                  "x": 8,
+                  "y": 12
+                },
+                {
+                  "x": 8,
+                  "y": 13
+                },
+                {
+                  "x": 8,
+                  "y": 14
+                },
+                {
+                  "x": 8,
+                  "y": 15
+                },
+                {
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "x": 8,
+                  "y": 17
+                },
+                {
+                  "x": 8,
+                  "y": 18
+                },
+                {
+                  "x": 8,
+                  "y": 19
+                },
+                {
+                  "x": 8,
+                  "y": 20
+                },
+                {
+                  "x": 9,
+                  "y": 0
+                },
+                {
+                  "x": 9,
+                  "y": 1
+                },
+                {
+                  "x": 9,
+                  "y": 2
+                },
+                {
+                  "x": 9,
+                  "y": 3
+                },
+                {
+                  "x": 9,
+                  "y": 4
+                },
+                {
+                  "x": 9,
+                  "y": 5
+                },
+                {
+                  "x": 9,
+                  "y": 6
+                },
+                {
+                  "x": 9,
+                  "y": 7
+                },
+                {
+                  "x": 9,
+                  "y": 8
+                },
+                {
+                  "x": 9,
+                  "y": 9
+                },
+                {
+                  "x": 9,
+                  "y": 10
+                },
+                {
+                  "x": 9,
+                  "y": 11
+                },
+                {
+                  "x": 9,
+                  "y": 12
+                },
+                {
+                  "x": 9,
+                  "y": 13
+                },
+                {
+                  "x": 9,
+                  "y": 14
+                },
+                {
+                  "x": 9,
+                  "y": 15
+                },
+                {
+                  "x": 9,
+                  "y": 16
+                },
+                {
+                  "x": 9,
+                  "y": 17
+                },
+                {
+                  "x": 9,
+                  "y": 18
+                },
+                {
+                  "x": 9,
+                  "y": 19
+                },
+                {
+                  "x": 9,
+                  "y": 20
+                },
+                {
+                  "x": 10,
+                  "y": 0
+                },
+                {
+                  "x": 10,
+                  "y": 1
+                },
+                {
+                  "x": 10,
+                  "y": 2
+                },
+                {
+                  "x": 10,
+                  "y": 3
+                },
+                {
+                  "x": 10,
+                  "y": 4
+                },
+                {
+                  "x": 10,
+                  "y": 5
+                },
+                {
+                  "x": 10,
+                  "y": 6
+                },
+                {
+                  "x": 10,
+                  "y": 7
+                },
+                {
+                  "x": 10,
+                  "y": 8
+                },
+                {
+                  "x": 10,
+                  "y": 9
+                },
+                {
+                  "x": 10,
+                  "y": 10
+                },
+                {
+                  "x": 10,
+                  "y": 11
+                },
+                {
+                  "x": 10,
+                  "y": 12
+                },
+                {
+                  "x": 10,
+                  "y": 13
+                },
+                {
+                  "x": 10,
+                  "y": 14
+                },
+                {
+                  "x": 10,
+                  "y": 15
+                },
+                {
+                  "x": 10,
+                  "y": 16
+                },
+                {
+                  "x": 10,
+                  "y": 17
+                },
+                {
+                  "x": 10,
+                  "y": 18
+                },
+                {
+                  "x": 10,
+                  "y": 19
+                },
+                {
+                  "x": 10,
+                  "y": 20
+                },
+                {
+                  "x": 11,
+                  "y": 0
+                },
+                {
+                  "x": 11,
+                  "y": 1
+                },
+                {
+                  "x": 11,
+                  "y": 2
+                },
+                {
+                  "x": 11,
+                  "y": 3
+                },
+                {
+                  "x": 11,
+                  "y": 4
+                },
+                {
+                  "x": 11,
+                  "y": 5
+                },
+                {
+                  "x": 11,
+                  "y": 6
+                },
+                {
+                  "x": 11,
+                  "y": 7
+                },
+                {
+                  "x": 11,
+                  "y": 8
+                },
+                {
+                  "x": 11,
+                  "y": 9
+                },
+                {
+                  "x": 11,
+                  "y": 10
+                },
+                {
+                  "x": 11,
+                  "y": 11
+                },
+                {
+                  "x": 11,
+                  "y": 12
+                },
+                {
+                  "x": 11,
+                  "y": 13
+                },
+                {
+                  "x": 11,
+                  "y": 14
+                },
+                {
+                  "x": 11,
+                  "y": 15
+                },
+                {
+                  "x": 11,
+                  "y": 16
+                },
+                {
+                  "x": 11,
+                  "y": 17
+                },
+                {
+                  "x": 11,
+                  "y": 18
+                },
+                {
+                  "x": 11,
+                  "y": 19
+                },
+                {
+                  "x": 11,
+                  "y": 20
+                },
+                {
+                  "x": 12,
+                  "y": 0
+                },
+                {
+                  "x": 12,
+                  "y": 1
+                },
+                {
+                  "x": 12,
+                  "y": 2
+                },
+                {
+                  "x": 12,
+                  "y": 3
+                },
+                {
+                  "x": 12,
+                  "y": 4
+                },
+                {
+                  "x": 12,
+                  "y": 5
+                },
+                {
+                  "x": 12,
+                  "y": 6
+                },
+                {
+                  "x": 12,
+                  "y": 7
+                },
+                {
+                  "x": 12,
+                  "y": 8
+                },
+                {
+                  "x": 12,
+                  "y": 9
+                },
+                {
+                  "x": 12,
+                  "y": 10
+                },
+                {
+                  "x": 12,
+                  "y": 11
+                },
+                {
+                  "x": 12,
+                  "y": 12
+                },
+                {
+                  "x": 12,
+                  "y": 13
+                },
+                {
+                  "x": 12,
+                  "y": 14
+                },
+                {
+                  "x": 12,
+                  "y": 15
+                },
+                {
+                  "x": 12,
+                  "y": 16
+                },
+                {
+                  "x": 12,
+                  "y": 17
+                },
+                {
+                  "x": 12,
+                  "y": 18
+                },
+                {
+                  "x": 12,
+                  "y": 19
+                },
+                {
+                  "x": 12,
+                  "y": 20
+                },
+                {
+                  "x": 13,
+                  "y": 0
+                },
+                {
+                  "x": 13,
+                  "y": 1
+                },
+                {
+                  "x": 13,
+                  "y": 2
+                },
+                {
+                  "x": 13,
+                  "y": 3
+                },
+                {
+                  "x": 13,
+                  "y": 4
+                },
+                {
+                  "x": 13,
+                  "y": 5
+                },
+                {
+                  "x": 13,
+                  "y": 6
+                },
+                {
+                  "x": 13,
+                  "y": 7
+                },
+                {
+                  "x": 13,
+                  "y": 8
+                },
+                {
+                  "x": 13,
+                  "y": 9
+                },
+                {
+                  "x": 13,
+                  "y": 10
+                },
+                {
+                  "x": 13,
+                  "y": 11
+                },
+                {
+                  "x": 13,
+                  "y": 12
+                },
+                {
+                  "x": 13,
+                  "y": 13
+                },
+                {
+                  "x": 13,
+                  "y": 14
+                },
+                {
+                  "x": 13,
+                  "y": 15
+                },
+                {
+                  "x": 13,
+                  "y": 16
+                },
+                {
+                  "x": 13,
+                  "y": 17
+                },
+                {
+                  "x": 13,
+                  "y": 18
+                },
+                {
+                  "x": 13,
+                  "y": 19
+                },
+                {
+                  "x": 13,
+                  "y": 20
+                },
+                {
+                  "x": 14,
+                  "y": 0
+                },
+                {
+                  "x": 14,
+                  "y": 1
+                },
+                {
+                  "x": 14,
+                  "y": 2
+                },
+                {
+                  "x": 14,
+                  "y": 3
+                },
+                {
+                  "x": 14,
+                  "y": 4
+                },
+                {
+                  "x": 14,
+                  "y": 5
+                },
+                {
+                  "x": 14,
+                  "y": 6
+                },
+                {
+                  "x": 14,
+                  "y": 7
+                },
+                {
+                  "x": 14,
+                  "y": 8
+                },
+                {
+                  "x": 14,
+                  "y": 9
+                },
+                {
+                  "x": 14,
+                  "y": 10
+                },
+                {
+                  "x": 14,
+                  "y": 11
+                },
+                {
+                  "x": 14,
+                  "y": 12
+                },
+                {
+                  "x": 14,
+                  "y": 13
+                },
+                {
+                  "x": 14,
+                  "y": 14
+                },
+                {
+                  "x": 14,
+                  "y": 15
+                },
+                {
+                  "x": 14,
+                  "y": 16
+                },
+                {
+                  "x": 14,
+                  "y": 17
+                },
+                {
+                  "x": 14,
+                  "y": 18
+                },
+                {
+                  "x": 14,
+                  "y": 19
+                },
+                {
+                  "x": 14,
+                  "y": 20
+                },
+                {
+                  "x": 15,
+                  "y": 0
+                },
+                {
+                  "x": 15,
+                  "y": 1
+                },
+                {
+                  "x": 15,
+                  "y": 2
+                },
+                {
+                  "x": 15,
+                  "y": 3
+                },
+                {
+                  "x": 15,
+                  "y": 4
+                },
+                {
+                  "x": 15,
+                  "y": 5
+                },
+                {
+                  "x": 15,
+                  "y": 6
+                },
+                {
+                  "x": 15,
+                  "y": 7
+                },
+                {
+                  "x": 15,
+                  "y": 8
+                },
+                {
+                  "x": 15,
+                  "y": 9
+                },
+                {
+                  "x": 15,
+                  "y": 10
+                },
+                {
+                  "x": 15,
+                  "y": 11
+                },
+                {
+                  "x": 15,
+                  "y": 12
+                },
+                {
+                  "x": 15,
+                  "y": 13
+                },
+                {
+                  "x": 15,
+                  "y": 14
+                },
+                {
+                  "x": 15,
+                  "y": 15
+                },
+                {
+                  "x": 15,
+                  "y": 16
+                },
+                {
+                  "x": 15,
+                  "y": 17
+                },
+                {
+                  "x": 15,
+                  "y": 18
+                },
+                {
+                  "x": 15,
+                  "y": 19
+                },
+                {
+                  "x": 15,
+                  "y": 20
+                },
+                {
+                  "x": 16,
+                  "y": 0
+                },
+                {
+                  "x": 16,
+                  "y": 1
+                },
+                {
+                  "x": 16,
+                  "y": 2
+                },
+                {
+                  "x": 16,
+                  "y": 3
+                },
+                {
+                  "x": 16,
+                  "y": 4
+                },
+                {
+                  "x": 16,
+                  "y": 5
+                },
+                {
+                  "x": 16,
+                  "y": 6
+                },
+                {
+                  "x": 16,
+                  "y": 7
+                },
+                {
+                  "x": 16,
+                  "y": 8
+                },
+                {
+                  "x": 16,
+                  "y": 9
+                },
+                {
+                  "x": 16,
+                  "y": 10
+                },
+                {
+                  "x": 16,
+                  "y": 11
+                },
+                {
+                  "x": 16,
+                  "y": 12
+                },
+                {
+                  "x": 16,
+                  "y": 13
+                },
+                {
+                  "x": 16,
+                  "y": 14
+                },
+                {
+                  "x": 16,
+                  "y": 15
+                },
+                {
+                  "x": 16,
+                  "y": 16
+                },
+                {
+                  "x": 16,
+                  "y": 17
+                },
+                {
+                  "x": 16,
+                  "y": 18
+                },
+                {
+                  "x": 16,
+                  "y": 19
+                },
+                {
+                  "x": 16,
+                  "y": 20
+                },
+                {
+                  "x": 17,
+                  "y": 0
+                },
+                {
+                  "x": 17,
+                  "y": 1
+                },
+                {
+                  "x": 17,
+                  "y": 2
+                },
+                {
+                  "x": 17,
+                  "y": 3
+                },
+                {
+                  "x": 17,
+                  "y": 4
+                },
+                {
+                  "x": 17,
+                  "y": 5
+                },
+                {
+                  "x": 17,
+                  "y": 6
+                },
+                {
+                  "x": 17,
+                  "y": 7
+                },
+                {
+                  "x": 17,
+                  "y": 8
+                },
+                {
+                  "x": 17,
+                  "y": 9
+                },
+                {
+                  "x": 17,
+                  "y": 10
+                },
+                {
+                  "x": 17,
+                  "y": 11
+                },
+                {
+                  "x": 17,
+                  "y": 12
+                },
+                {
+                  "x": 17,
+                  "y": 13
+                },
+                {
+                  "x": 17,
+                  "y": 14
+                },
+                {
+                  "x": 17,
+                  "y": 15
+                },
+                {
+                  "x": 17,
+                  "y": 16
+                },
+                {
+                  "x": 17,
+                  "y": 17
+                },
+                {
+                  "x": 17,
+                  "y": 18
+                },
+                {
+                  "x": 17,
+                  "y": 19
+                },
+                {
+                  "x": 17,
+                  "y": 20
+                },
+                {
+                  "x": 18,
+                  "y": 0
+                },
+                {
+                  "x": 18,
+                  "y": 1
+                },
+                {
+                  "x": 18,
+                  "y": 2
+                },
+                {
+                  "x": 18,
+                  "y": 3
+                },
+                {
+                  "x": 18,
+                  "y": 4
+                },
+                {
+                  "x": 18,
+                  "y": 5
+                },
+                {
+                  "x": 18,
+                  "y": 6
+                },
+                {
+                  "x": 18,
+                  "y": 7
+                },
+                {
+                  "x": 18,
+                  "y": 8
+                },
+                {
+                  "x": 18,
+                  "y": 9
+                },
+                {
+                  "x": 18,
+                  "y": 10
+                },
+                {
+                  "x": 18,
+                  "y": 11
+                },
+                {
+                  "x": 18,
+                  "y": 12
+                },
+                {
+                  "x": 18,
+                  "y": 13
+                },
+                {
+                  "x": 18,
+                  "y": 14
+                },
+                {
+                  "x": 18,
+                  "y": 15
+                },
+                {
+                  "x": 18,
+                  "y": 16
+                },
+                {
+                  "x": 18,
+                  "y": 17
+                },
+                {
+                  "x": 18,
+                  "y": 18
+                },
+                {
+                  "x": 18,
+                  "y": 19
+                },
+                {
+                  "x": 18,
+                  "y": 20
+                },
+                {
+                  "x": 19,
+                  "y": 0
+                },
+                {
+                  "x": 19,
+                  "y": 1
+                },
+                {
+                  "x": 19,
+                  "y": 2
+                },
+                {
+                  "x": 19,
+                  "y": 3
+                },
+                {
+                  "x": 19,
+                  "y": 4
+                },
+                {
+                  "x": 19,
+                  "y": 5
+                },
+                {
+                  "x": 19,
+                  "y": 6
+                },
+                {
+                  "x": 19,
+                  "y": 7
+                },
+                {
+                  "x": 19,
+                  "y": 8
+                },
+                {
+                  "x": 19,
+                  "y": 9
+                },
+                {
+                  "x": 19,
+                  "y": 10
+                },
+                {
+                  "x": 19,
+                  "y": 11
+                },
+                {
+                  "x": 19,
+                  "y": 12
+                },
+                {
+                  "x": 19,
+                  "y": 13
+                },
+                {
+                  "x": 19,
+                  "y": 14
+                },
+                {
+                  "x": 19,
+                  "y": 15
+                },
+                {
+                  "x": 19,
+                  "y": 16
+                },
+                {
+                  "x": 19,
+                  "y": 17
+                },
+                {
+                  "x": 19,
+                  "y": 18
+                },
+                {
+                  "x": 19,
+                  "y": 19
+                },
+                {
+                  "x": 19,
+                  "y": 20
+                }
+              ],
+              "base": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "silenceVoiceChat": false,
+            "disablePortableExperiences": false,
+            "spawnPoints": [
+              {
+                "name": "spawn1",
+                "default": true,
+                "position": {
+                  "x": {
+                    "$case": "range",
+                    "value": [
+                      60,
+                      63
+                    ]
+                  },
+                  "y": {
+                    "$case": "range",
+                    "value": [
+                      10,
+                      15
+                    ]
+                  },
+                  "z": {
+                    "$case": "range",
+                    "value": [
+                      135,
+                      145
+                    ]
+                  }
+                },
+                "cameraTarget": {
+                  "x": 8,
+                  "y": 1,
+                  "z": 8
+                }
+              }
+            ],
+            "skyboxConfig": {},
+            "creator": ""
+          }
+        }
+      }
+    },
+    {
       "name": "inspector::Nodes",
       "jsonSchema": {
         "type": "object",
@@ -2791,6 +5762,14 @@
                 "entity": {
                   "type": "integer",
                   "serializationType": "entity"
+                },
+                "open": {
+                  "type": "boolean",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "boolean",
+                    "serializationType": "boolean"
+                  }
                 },
                 "children": {
                   "type": "array",
@@ -2814,6 +5793,7 @@
             "value": [
               {
                 "entity": 0,
+                "open": true,
                 "children": [
                   513,
                   514,
@@ -2843,7 +5823,19 @@
                   539,
                   540,
                   541,
-                  542
+                  542,
+                  519,
+                  543,
+                  545,
+                  546,
+                  547,
+                  548,
+                  549,
+                  550,
+                  551,
+                  552,
+                  553,
+                  554
                 ]
               },
               {
@@ -2961,8 +5953,2092 @@
               {
                 "entity": 542,
                 "children": []
+              },
+              {
+                "entity": 1,
+                "children": []
+              },
+              {
+                "entity": 2,
+                "children": []
+              },
+              {
+                "entity": 519,
+                "children": []
+              },
+              {
+                "entity": 543,
+                "children": []
+              },
+              {
+                "entity": 545,
+                "children": []
+              },
+              {
+                "entity": 546,
+                "children": []
+              },
+              {
+                "entity": 547,
+                "children": []
+              },
+              {
+                "entity": 548,
+                "children": []
+              },
+              {
+                "entity": 549,
+                "children": []
+              },
+              {
+                "entity": 550,
+                "children": []
+              },
+              {
+                "entity": 551,
+                "children": []
+              },
+              {
+                "entity": 552,
+                "children": []
+              },
+              {
+                "entity": 553,
+                "children": []
+              },
+              {
+                "entity": 554,
+                "children": []
               }
             ]
+          }
+        }
+      }
+    },
+    {
+      "name": "asset-packs::ActionTypes",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "jsonSchema": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "value": [
+              {
+                "type": "play_animation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"animation\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"shouldReset\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_animation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_state",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"state\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "start_tween",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\",\"enum\":[\"move_item\",\"rotate_item\",\"scale_item\",\"keep_rotating_item\"],\"default\":\"move_item\",\"serializationType\":\"enum-string\",\"enumObject\":{\"MOVE_ITEM\":\"move_item\",\"ROTATE_ITEM\":\"rotate_item\",\"SCALE_ITEM\":\"scale_item\",\"KEEP_ROTATING_ITEM\":\"keep_rotating_item\"}},\"end\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"},\"interpolationType\":{\"type\":\"string\",\"enum\":[\"linear\",\"easeinquad\",\"easeoutquad\",\"easequad\",\"easeinsine\",\"easeoutsine\",\"easeinoutsine\",\"easeinexpo\",\"easeoutexpo\",\"easeinoutexpo\",\"easeinelastic\",\"easeoutelastic\",\"easeinoutelastic\",\"easeinbounce\",\"easeoutbounce\",\"easeinoutbounce\"],\"default\":\"linear\",\"serializationType\":\"enum-string\",\"enumObject\":{\"LINEAR\":\"linear\",\"EASEINQUAD\":\"easeinquad\",\"EASEOUTQUAD\":\"easeoutquad\",\"EASEQUAD\":\"easequad\",\"EASEINSINE\":\"easeinsine\",\"EASEOUTSINE\":\"easeoutsine\",\"EASESINE\":\"easeinoutsine\",\"EASEINEXPO\":\"easeinexpo\",\"EASEOUTEXPO\":\"easeoutexpo\",\"EASEEXPO\":\"easeinoutexpo\",\"EASEINELASTIC\":\"easeinelastic\",\"EASEOUTELASTIC\":\"easeoutelastic\",\"EASEELASTIC\":\"easeinoutelastic\",\"EASEINBOUNCE\":\"easeinbounce\",\"EASEOUTEBOUNCE\":\"easeoutbounce\",\"EASEBOUNCE\":\"easeinoutbounce\"}},\"duration\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"direction\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}},\"speed\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_counter",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"counter\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "increment_counter",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"amount\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "decrease_counter",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"amount\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_sound",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"volume\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"global\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_sound",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_visibility",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"visible\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"physicsCollider\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"collider\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"enum\":[0,1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768],\"default\":1,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"CL_NONE\",\"1\":\"CL_POINTER\",\"2\":\"CL_PHYSICS\",\"4\":\"CL_RESERVED1\",\"8\":\"CL_RESERVED2\",\"16\":\"CL_RESERVED3\",\"32\":\"CL_RESERVED4\",\"64\":\"CL_RESERVED5\",\"128\":\"CL_RESERVED6\",\"256\":\"CL_CUSTOM1\",\"512\":\"CL_CUSTOM2\",\"1024\":\"CL_CUSTOM3\",\"2048\":\"CL_CUSTOM4\",\"4096\":\"CL_CUSTOM5\",\"8192\":\"CL_CUSTOM6\",\"16384\":\"CL_CUSTOM7\",\"32768\":\"CL_CUSTOM8\",\"CL_NONE\":0,\"CL_POINTER\":1,\"CL_PHYSICS\":2,\"CL_RESERVED1\":4,\"CL_RESERVED2\":8,\"CL_RESERVED3\":16,\"CL_RESERVED4\":32,\"CL_RESERVED5\":64,\"CL_RESERVED6\":128,\"CL_CUSTOM1\":256,\"CL_CUSTOM2\":512,\"CL_CUSTOM3\":1024,\"CL_CUSTOM4\":2048,\"CL_CUSTOM5\":4096,\"CL_CUSTOM6\":8192,\"CL_CUSTOM7\":16384,\"CL_CUSTOM8\":32768}}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "attach_to_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"anchorPointId\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "detach_from_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_video_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"volume\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"dclCast\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_video_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_audio_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"url\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"volume\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_audio_stream",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "teleport_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"enum\":[\"to_coordinates\",\"to_world\"],\"default\":\"to_coordinates\",\"serializationType\":\"enum-string\",\"enumObject\":{\"TO_COORDINATES\":\"to_coordinates\",\"TO_WORLD\":\"to_world\"}},\"x\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"y\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"realm\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "move_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"},\"cameraTarget\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_default_emote",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"emote\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "play_custom_emote",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"loop\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "open_link",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"url\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "show_text",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"text\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"hideAfterSeconds\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"font\":{\"type\":\"integer\",\"enum\":[0,1,2],\"default\":0,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"F_SANS_SERIF\",\"1\":\"F_SERIF\",\"2\":\"F_MONOSPACE\",\"F_SANS_SERIF\":0,\"F_SERIF\":1,\"F_MONOSPACE\":2}},\"fontSize\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"textAlign\":{\"type\":\"integer\",\"enum\":[0,1,2,3,4,5,6,7,8],\"default\":4,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"TAM_TOP_LEFT\",\"1\":\"TAM_TOP_CENTER\",\"2\":\"TAM_TOP_RIGHT\",\"3\":\"TAM_MIDDLE_LEFT\",\"4\":\"TAM_MIDDLE_CENTER\",\"5\":\"TAM_MIDDLE_RIGHT\",\"6\":\"TAM_BOTTOM_LEFT\",\"7\":\"TAM_BOTTOM_CENTER\",\"8\":\"TAM_BOTTOM_RIGHT\",\"TAM_TOP_LEFT\":0,\"TAM_TOP_CENTER\":1,\"TAM_TOP_RIGHT\":2,\"TAM_MIDDLE_LEFT\":3,\"TAM_MIDDLE_CENTER\":4,\"TAM_MIDDLE_RIGHT\":5,\"TAM_BOTTOM_LEFT\":6,\"TAM_BOTTOM_CENTER\":7,\"TAM_BOTTOM_RIGHT\":8}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "hide_text",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "start_delay",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"},\"timeout\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_delay",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "start_loop",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"},\"interval\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_loop",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "clone_entity",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"w\":{\"type\":\"number\"}},\"serializationType\":\"vector3\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "remove_entity",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "show_image",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"src\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"align\":{\"type\":\"integer\",\"enum\":[0,1,2,3,4,5,6,7,8],\"default\":4,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"TAM_TOP_LEFT\",\"1\":\"TAM_TOP_CENTER\",\"2\":\"TAM_TOP_RIGHT\",\"3\":\"TAM_MIDDLE_LEFT\",\"4\":\"TAM_MIDDLE_CENTER\",\"5\":\"TAM_MIDDLE_RIGHT\",\"6\":\"TAM_BOTTOM_LEFT\",\"7\":\"TAM_BOTTOM_CENTER\",\"8\":\"TAM_BOTTOM_RIGHT\",\"TAM_TOP_LEFT\":0,\"TAM_TOP_CENTER\":1,\"TAM_TOP_RIGHT\":2,\"TAM_MIDDLE_LEFT\":3,\"TAM_MIDDLE_CENTER\":4,\"TAM_MIDDLE_RIGHT\":5,\"TAM_BOTTOM_LEFT\":6,\"TAM_BOTTOM_CENTER\":7,\"TAM_BOTTOM_RIGHT\":8}},\"height\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"width\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"hideAfterSeconds\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"text\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"}},\"fontSize\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "hide_image",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"imageEntity\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "damage",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"radius\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"layer\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"enum\":[\"all\",\"player\",\"non_player\"],\"default\":\"all\",\"serializationType\":\"enum-string\",\"enumObject\":{\"ALL\":\"all\",\"PLAYER\":\"player\",\"NON_PLAYER\":\"non_player\"}}},\"hits\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "move_player_here",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "player_face_item",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "place_on_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "rotate_as_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "place_on_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "rotate_as_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_position",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_rotation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_scale",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "follow_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"speed\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"x\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"y\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"z\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"minDistance\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_following_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "random",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "batch",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "heal_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"multiplier\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "claim_airdrop",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "lights_on",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "lights_off",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "lights_modify",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"active\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}},\"color\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"r\":{\"type\":\"number\"},\"g\":{\"type\":\"number\"},\"b\":{\"type\":\"number\"}},\"serializationType\":\"color3\"}},\"intensity\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"virtualCameraEntity\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"entity\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_text",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"text\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"fontSize\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"color\":{\"type\":\"object\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"object\",\"properties\":{\"r\":{\"type\":\"number\"},\"g\":{\"type\":\"number\"},\"b\":{\"type\":\"number\"},\"a\":{\"type\":\"number\"}},\"serializationType\":\"color4\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_tween",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "slide_texture",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"direction\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"},\"speed\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"movementType\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"enum\":[0,1],\"default\":0,\"serializationType\":\"enum-int\",\"enumObject\":{\"0\":\"TMT_OFFSET\",\"1\":\"TMT_TILING\",\"TMT_OFFSET\":0,\"TMT_TILING\":1}}},\"duration\":{\"type\":\"number\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"number\",\"serializationType\":\"float32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "freeze_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "unfreeze_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_collisions",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"visibleCollisions\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"invisibleCollisions\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "change_skybox",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"time\":{\"type\":\"integer\",\"serializationType\":\"int32\"},\"direction\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "reset_skybox",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "asset-packs::Actions",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "serializationType": "int32"
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "type": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "jsonPayload": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "allowedInBasicView": {
+                  "type": "boolean",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "boolean",
+                    "serializationType": "boolean"
+                  }
+                },
+                "basicViewId": {
+                  "type": "string",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  }
+                },
+                "default": {
+                  "type": "boolean",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "boolean",
+                    "serializationType": "boolean"
+                  }
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "546": {
+          "json": {
+            "id": 1,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        },
+        "547": {
+          "json": {
+            "id": 1,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/sounds/water.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        },
+        "548": {
+          "json": {
+            "id": 3,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/sounds/water.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        },
+        "549": {
+          "json": {
+            "id": 4,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/sounds/water.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        },
+        "550": {
+          "json": {
+            "id": 5,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        },
+        "551": {
+          "json": {
+            "id": 6,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/sounds/water.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        },
+        "552": {
+          "json": {
+            "id": 7,
+            "value": [
+              {
+                "name": "Turn On",
+                "type": "lights_on",
+                "jsonPayload": "{}"
+              },
+              {
+                "name": "Turn Off",
+                "type": "lights_off",
+                "jsonPayload": "{}"
+              }
+            ]
+          }
+        },
+        "553": {
+          "json": {
+            "id": 8,
+            "value": [
+              {
+                "name": "Turn On",
+                "type": "lights_on",
+                "jsonPayload": "{}"
+              },
+              {
+                "name": "Turn Off",
+                "type": "lights_off",
+                "jsonPayload": "{}"
+              }
+            ]
+          }
+        },
+        "554": {
+          "json": {
+            "id": 1,
+            "value": [
+              {
+                "name": "Play once",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/ambient_sound_-_market/Town.mp3\",\"global\":false}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Loop",
+                "type": "play_sound",
+                "jsonPayload": "{\"loop\":true,\"src\":\"assets/sounds/thunder.mp3\",\"global\":false}",
+                "allowedInBasicView": true,
+                "basicViewId": "loop-sound"
+              },
+              {
+                "name": "Stop",
+                "type": "stop_sound",
+                "jsonPayload": "{}",
+                "allowedInBasicView": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "asset-packs::Counter",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "serializationType": "float32"
+          },
+          "value": {
+            "type": "integer",
+            "serializationType": "int32"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "id": 0,
+            "value": 9
+          }
+        }
+      }
+    },
+    {
+      "name": "asset-packs::Triggers",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "on_click",
+                    "on_input_action",
+                    "on_state_change",
+                    "on_spawn",
+                    "on_tween_end",
+                    "on_counter_change",
+                    "on_player_enters_area",
+                    "on_player_leaves_area",
+                    "on_delay",
+                    "on_loop",
+                    "on_clone",
+                    "on_click_image",
+                    "on_damage",
+                    "on_global_click",
+                    "on_global_primary",
+                    "on_global_secondary",
+                    "on_tick",
+                    "on_heal_player",
+                    "on_player_spawn"
+                  ],
+                  "default": "on_input_action",
+                  "serializationType": "enum-string",
+                  "enumObject": {
+                    "ON_CLICK": "on_click",
+                    "ON_INPUT_ACTION": "on_input_action",
+                    "ON_STATE_CHANGE": "on_state_change",
+                    "ON_SPAWN": "on_spawn",
+                    "ON_TWEEN_END": "on_tween_end",
+                    "ON_COUNTER_CHANGE": "on_counter_change",
+                    "ON_PLAYER_ENTERS_AREA": "on_player_enters_area",
+                    "ON_PLAYER_LEAVES_AREA": "on_player_leaves_area",
+                    "ON_DELAY": "on_delay",
+                    "ON_LOOP": "on_loop",
+                    "ON_CLONE": "on_clone",
+                    "ON_CLICK_IMAGE": "on_click_image",
+                    "ON_DAMAGE": "on_damage",
+                    "ON_GLOBAL_CLICK": "on_global_click",
+                    "ON_GLOBAL_PRIMARY": "on_global_primary",
+                    "ON_GLOBAL_SECONDARY": "on_global_secondary",
+                    "ON_TICK": "on_tick",
+                    "ON_HEAL_PLAYER": "on_heal_player",
+                    "ON_PLAYER_SPAWN": "on_player_spawn"
+                  }
+                },
+                "conditions": {
+                  "type": "array",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "integer",
+                            "serializationType": "int32"
+                          }
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "when_state_is",
+                            "when_state_is_not",
+                            "when_counter_equals",
+                            "when_counter_is_greater_than",
+                            "when_counter_is_less_than",
+                            "when_distance_to_player_less_than",
+                            "when_distance_to_player_greater_than",
+                            "when_previous_state_is",
+                            "when_previous_state_is_not"
+                          ],
+                          "default": "when_state_is",
+                          "serializationType": "enum-string",
+                          "enumObject": {
+                            "WHEN_STATE_IS": "when_state_is",
+                            "WHEN_STATE_IS_NOT": "when_state_is_not",
+                            "WHEN_COUNTER_EQUALS": "when_counter_equals",
+                            "WHEN_COUNTER_IS_GREATER_THAN": "when_counter_is_greater_than",
+                            "WHEN_COUNTER_IS_LESS_THAN": "when_counter_is_less_than",
+                            "WHEN_DISTANCE_TO_PLAYER_LESS_THAN": "when_distance_to_player_less_than",
+                            "WHEN_DISTANCE_TO_PLAYER_GREATER_THAN": "when_distance_to_player_greater_than",
+                            "WHEN_PREVIOUS_STATE_IS": "when_previous_state_is",
+                            "WHEN_PREVIOUS_STATE_IS_NOT": "when_previous_state_is_not"
+                          }
+                        },
+                        "value": {
+                          "type": "string",
+                          "serializationType": "utf8-string"
+                        }
+                      },
+                      "serializationType": "map"
+                    },
+                    "serializationType": "array"
+                  }
+                },
+                "operation": {
+                  "type": "string",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "string",
+                    "enum": [
+                      "and",
+                      "or"
+                    ],
+                    "default": "and",
+                    "serializationType": "enum-string",
+                    "enumObject": {
+                      "AND": "and",
+                      "OR": "or"
+                    }
+                  }
+                },
+                "actions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "serializationType": "optional",
+                        "optionalJsonSchema": {
+                          "type": "integer",
+                          "serializationType": "int32"
+                        }
+                      },
+                      "name": {
+                        "type": "string",
+                        "serializationType": "optional",
+                        "optionalJsonSchema": {
+                          "type": "string",
+                          "serializationType": "utf8-string"
+                        }
+                      }
+                    },
+                    "serializationType": "map"
+                  },
+                  "serializationType": "array"
+                },
+                "basicViewId": {
+                  "type": "string",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  }
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "546": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 1,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "547": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 2,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "548": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 2,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "549": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 2,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "550": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 5,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "551": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 2,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "554": {
+          "json": {
+            "value": [
+              {
+                "type": "on_spawn",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 2,
+                    "name": "Loop"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::TransformConfig",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "porportionalScaling": {
+            "type": "boolean",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "boolean",
+              "serializationType": "boolean"
+            }
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "513": {
+          "json": {}
+        },
+        "519": {
+          "json": {}
+        },
+        "520": {
+          "json": {}
+        },
+        "521": {
+          "json": {}
+        },
+        "525": {
+          "json": {}
+        },
+        "526": {
+          "json": {}
+        },
+        "527": {
+          "json": {}
+        },
+        "528": {
+          "json": {}
+        },
+        "529": {
+          "json": {}
+        },
+        "531": {
+          "json": {}
+        },
+        "532": {
+          "json": {}
+        },
+        "536": {
+          "json": {}
+        },
+        "537": {
+          "json": {}
+        },
+        "540": {
+          "json": {}
+        },
+        "541": {
+          "json": {}
+        },
+        "543": {
+          "json": {}
+        },
+        "545": {
+          "json": {}
+        },
+        "546": {
+          "json": {}
+        },
+        "547": {
+          "json": {}
+        },
+        "548": {
+          "json": {}
+        },
+        "549": {
+          "json": {}
+        },
+        "550": {
+          "json": {}
+        },
+        "551": {
+          "json": {}
+        },
+        "552": {
+          "json": {}
+        },
+        "553": {
+          "json": {}
+        },
+        "554": {
+          "json": {}
+        }
+      }
+    },
+    {
+      "name": "inspector::Lock",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "boolean",
+            "serializationType": "boolean"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "513": {
+          "json": {
+            "value": true
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::Config",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "isBasicViewEnabled": {
+            "type": "boolean",
+            "serializationType": "boolean"
+          },
+          "componentName": {
+            "type": "string",
+            "serializationType": "utf8-string"
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "core::Animator",
+                    "core::AudioSource",
+                    "core::AudioStream",
+                    "core::AvatarAttach",
+                    "core::Billboard",
+                    "core::GltfContainer",
+                    "core-schema::Network-Entity",
+                    "core::Material",
+                    "core::MeshCollider",
+                    "core::MeshRenderer",
+                    "core::NftShape",
+                    "core::PointerEvents",
+                    "core-schema::Sync-Components",
+                    "core::TextShape",
+                    "core::Transform",
+                    "core::Tween",
+                    "core::TweenSequence",
+                    "core::VideoPlayer",
+                    "core::VisibilityComponent",
+                    "core::LightSource",
+                    "core::GltfNodeModifiers",
+                    "core::VirtualCamera",
+                    "inspector::Selection",
+                    "inspector::SceneMetadata-v2",
+                    "inspector::Nodes",
+                    "asset-packs::ActionTypes",
+                    "asset-packs::Actions",
+                    "asset-packs::Counter",
+                    "asset-packs::CounterBar",
+                    "asset-packs::Triggers",
+                    "asset-packs::States",
+                    "inspector::TransformConfig",
+                    "inspector::Hide",
+                    "inspector::Lock",
+                    "inspector::Config",
+                    "inspector::Ground",
+                    "inspector::Tile",
+                    "inspector::CustomAsset",
+                    "asset-packs::AdminTools",
+                    "asset-packs::Rewards",
+                    "asset-packs::VideoScreen",
+                    "inspector::UIState",
+                    "asset-packs::Script"
+                  ],
+                  "default": "asset-packs::Actions",
+                  "serializationType": "enum-string",
+                  "enumObject": {
+                    "ANIMATOR": "core::Animator",
+                    "AUDIO_SOURCE": "core::AudioSource",
+                    "AUDIO_STREAM": "core::AudioStream",
+                    "AVATAR_ATTACH": "core::AvatarAttach",
+                    "BILLBOARD": "core::Billboard",
+                    "GLTF_CONTAINER": "core::GltfContainer",
+                    "NETWORK_ENTITY": "core-schema::Network-Entity",
+                    "MATERIAL": "core::Material",
+                    "MESH_COLLIDER": "core::MeshCollider",
+                    "MESH_RENDERER": "core::MeshRenderer",
+                    "NFT_SHAPE": "core::NftShape",
+                    "POINTER_EVENTS": "core::PointerEvents",
+                    "SYNC_COMPONENTS": "core-schema::Sync-Components",
+                    "TEXT_SHAPE": "core::TextShape",
+                    "TRANSFORM": "core::Transform",
+                    "TWEEN": "core::Tween",
+                    "TWEEN_SEQUENCE": "core::TweenSequence",
+                    "VIDEO_PLAYER": "core::VideoPlayer",
+                    "VISIBILITY_COMPONENT": "core::VisibilityComponent",
+                    "LIGHT_SOURCE": "core::LightSource",
+                    "GLTF_NODE_MODIFIERS": "core::GltfNodeModifiers",
+                    "VIRTUAL_CAMERA": "core::VirtualCamera",
+                    "Selection": "inspector::Selection",
+                    "Scene": "inspector::SceneMetadata-v2",
+                    "Nodes": "inspector::Nodes",
+                    "ActionTypes": "asset-packs::ActionTypes",
+                    "Actions": "asset-packs::Actions",
+                    "Counter": "asset-packs::Counter",
+                    "CounterBar": "asset-packs::CounterBar",
+                    "Triggers": "asset-packs::Triggers",
+                    "States": "asset-packs::States",
+                    "TransformConfig": "inspector::TransformConfig",
+                    "Hide": "inspector::Hide",
+                    "Lock": "inspector::Lock",
+                    "Config": "inspector::Config",
+                    "Ground": "inspector::Ground",
+                    "Tile": "inspector::Tile",
+                    "CustomAsset": "inspector::CustomAsset",
+                    "AdminTools": "asset-packs::AdminTools",
+                    "Rewards": "asset-packs::Rewards",
+                    "VideoScreen": "asset-packs::VideoScreen",
+                    "InspectorUIState": "inspector::UIState",
+                    "Script": "asset-packs::Script"
+                  }
+                },
+                "layout": {
+                  "type": "string",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  }
+                },
+                "basicViewId": {
+                  "type": "string",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  }
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          },
+          "assetId": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "label": {
+            "type": "string",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "string",
+              "serializationType": "utf8-string"
+            }
+          },
+          "sections": {
+            "type": "array",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  },
+                  "label": {
+                    "type": "string",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "string",
+                      "serializationType": "utf8-string"
+                    }
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "component": {
+                          "type": "string",
+                          "serializationType": "utf8-string"
+                        },
+                        "widget": {
+                          "type": "string",
+                          "serializationType": "utf8-string"
+                        },
+                        "label": {
+                          "type": "string",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "string",
+                            "serializationType": "utf8-string"
+                          }
+                        },
+                        "type": {
+                          "type": "string",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "string",
+                            "serializationType": "utf8-string"
+                          }
+                        },
+                        "path": {
+                          "type": "string",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "string",
+                            "serializationType": "utf8-string"
+                          }
+                        },
+                        "basicViewId": {
+                          "type": "string",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "string",
+                            "serializationType": "utf8-string"
+                          }
+                        },
+                        "props": {
+                          "type": "object",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "object",
+                            "properties": {
+                              "basic": {
+                                "type": "boolean",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "boolean",
+                                  "serializationType": "boolean"
+                                }
+                              }
+                            },
+                            "serializationType": "map"
+                          }
+                        },
+                        "constraints": {
+                          "type": "object",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "object",
+                            "properties": {
+                              "min": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "max": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "minExclusive": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "maxExclusive": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "step": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "multipleOf": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "minLength": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "maxLength": {
+                                "type": "number",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "number",
+                                  "serializationType": "float32"
+                                }
+                              },
+                              "pattern": {
+                                "type": "string",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "string",
+                                  "serializationType": "utf8-string"
+                                }
+                              },
+                              "format": {
+                                "type": "string",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "string",
+                                  "serializationType": "utf8-string"
+                                }
+                              },
+                              "default": {
+                                "type": "string",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "string",
+                                  "serializationType": "utf8-string"
+                                }
+                              }
+                            },
+                            "serializationType": "map"
+                          }
+                        },
+                        "transform": {
+                          "type": "object",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "object",
+                            "properties": {
+                              "in": {
+                                "type": "object",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "object",
+                                  "properties": {
+                                    "steps": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "properties": {
+                                          "op": {
+                                            "type": "string",
+                                            "serializationType": "utf8-string"
+                                          },
+                                          "onError": {
+                                            "type": "string",
+                                            "serializationType": "optional",
+                                            "optionalJsonSchema": {
+                                              "type": "string",
+                                              "enum": [
+                                                "fail",
+                                                "skip",
+                                                "noop"
+                                              ],
+                                              "default": "noop",
+                                              "serializationType": "enum-string",
+                                              "enumObject": {
+                                                "FAIL": "fail",
+                                                "SKIP": "skip",
+                                                "NOOP": "noop"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "serializationType": "map"
+                                      },
+                                      "serializationType": "array"
+                                    }
+                                  },
+                                  "serializationType": "map"
+                                }
+                              },
+                              "out": {
+                                "type": "object",
+                                "serializationType": "optional",
+                                "optionalJsonSchema": {
+                                  "type": "object",
+                                  "properties": {
+                                    "steps": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "properties": {
+                                          "op": {
+                                            "type": "string",
+                                            "serializationType": "utf8-string"
+                                          },
+                                          "onError": {
+                                            "type": "string",
+                                            "serializationType": "optional",
+                                            "optionalJsonSchema": {
+                                              "type": "string",
+                                              "enum": [
+                                                "fail",
+                                                "skip",
+                                                "noop"
+                                              ],
+                                              "default": "noop",
+                                              "serializationType": "enum-string",
+                                              "enumObject": {
+                                                "FAIL": "fail",
+                                                "SKIP": "skip",
+                                                "NOOP": "noop"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "serializationType": "map"
+                                      },
+                                      "serializationType": "array"
+                                    }
+                                  },
+                                  "serializationType": "map"
+                                }
+                              }
+                            },
+                            "serializationType": "map"
+                          }
+                        },
+                        "dataSource": {
+                          "type": "object",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "object",
+                            "properties": {
+                              "kind": {
+                                "type": "string",
+                                "serializationType": "utf8-string"
+                              }
+                            },
+                            "serializationType": "map"
+                          }
+                        }
+                      },
+                      "serializationType": "map"
+                    },
+                    "serializationType": "array"
+                  },
+                  "columns": {
+                    "type": "number",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "number",
+                      "serializationType": "float32"
+                    }
+                  },
+                  "helpTooltip": {
+                    "type": "object",
+                    "serializationType": "optional",
+                    "optionalJsonSchema": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "serializationType": "utf8-string"
+                        },
+                        "link": {
+                          "type": "string",
+                          "serializationType": "optional",
+                          "optionalJsonSchema": {
+                            "type": "string",
+                            "serializationType": "utf8-string"
+                          }
+                        }
+                      },
+                      "serializationType": "map"
+                    }
+                  }
+                },
+                "serializationType": "map"
+              },
+              "serializationType": "array"
+            }
+          },
+          "helpTooltip": {
+            "type": "object",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "serializationType": "utf8-string"
+                },
+                "link": {
+                  "type": "string",
+                  "serializationType": "optional",
+                  "optionalJsonSchema": {
+                    "type": "string",
+                    "serializationType": "utf8-string"
+                  }
+                }
+              },
+              "serializationType": "map"
+            }
+          },
+          "version": {
+            "type": "number",
+            "serializationType": "optional",
+            "optionalJsonSchema": {
+              "type": "number",
+              "serializationType": "float32"
+            }
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "546": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
+          }
+        },
+        "547": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
+          }
+        },
+        "548": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
+          }
+        },
+        "549": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
+          }
+        },
+        "550": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
+          }
+        },
+        "551": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
+          }
+        },
+        "552": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "c461e2b4-c549-4fc9-aec3-f6531f97cc54",
+            "label": "Light Settings",
+            "sections": [
+              {
+                "id": "light-settings",
+                "items": [
+                  {
+                    "component": "core::LightSource",
+                    "widget": "ColorField",
+                    "label": "Color",
+                    "type": "Color3",
+                    "path": "color",
+                    "props": {
+                      "basic": true
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toHex"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "toColor3"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "component": "core::LightSource",
+                    "widget": "RangeField",
+                    "label": "Intensity",
+                    "path": "intensity",
+                    "constraints": {
+                      "max": 300000,
+                      "step": 1,
+                      "default": "16000"
+                    }
+                  }
+                ],
+                "columns": 1
+              },
+              {
+                "id": "shadow-mask",
+                "items": [
+                  {
+                    "component": "core::LightSource",
+                    "widget": "FileUploadField",
+                    "label": "Shadow Mask Texture",
+                    "path": "shadowMaskTexture.tex.texture.src",
+                    "props": {}
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "A point light that can be used to illuminate a scene."
+            },
+            "version": 2
+          }
+        },
+        "553": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "c461e2b4-c549-4fc9-aec3-f6531f97cc54",
+            "label": "Light Settings",
+            "sections": [
+              {
+                "id": "light-settings",
+                "items": [
+                  {
+                    "component": "core::LightSource",
+                    "widget": "ColorField",
+                    "label": "Color",
+                    "type": "Color3",
+                    "path": "color",
+                    "props": {
+                      "basic": true
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toHex"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "toColor3"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "component": "core::LightSource",
+                    "widget": "RangeField",
+                    "label": "Intensity",
+                    "path": "intensity",
+                    "constraints": {
+                      "max": 300000,
+                      "step": 1,
+                      "default": "16000"
+                    }
+                  }
+                ],
+                "columns": 1
+              },
+              {
+                "id": "shadow-mask",
+                "items": [
+                  {
+                    "component": "core::LightSource",
+                    "widget": "FileUploadField",
+                    "label": "Shadow Mask Texture",
+                    "path": "shadowMaskTexture.tex.texture.src",
+                    "props": {}
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "A point light that can be used to illuminate a scene."
+            },
+            "version": 2
+          }
+        },
+        "554": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "",
+            "fields": [],
+            "assetId": "838c4adf-9c5b-4253-bf5a-80ef5e92dec2",
+            "label": "Ambient Sound",
+            "sections": [
+              {
+                "id": "sound",
+                "items": [
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "FileUploadField",
+                    "label": "Sound Path",
+                    "path": "src",
+                    "basicViewId": "loop-sound"
+                  },
+                  {
+                    "component": "asset-packs::Actions",
+                    "widget": "RangeField",
+                    "label": "Volume",
+                    "path": "volume",
+                    "basicViewId": "loop-sound",
+                    "constraints": {
+                      "max": 1,
+                      "step": 0.009999999776482582,
+                      "default": "1"
+                    },
+                    "transform": {
+                      "in": {
+                        "steps": [
+                          {
+                            "op": "toPercentage"
+                          }
+                        ]
+                      },
+                      "out": {
+                        "steps": [
+                          {
+                            "op": "fromPercentage"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "helpTooltip": {
+              "text": "Play the file in Sound Path in a continuous loop. Swap the file for any other local sound file in the scene."
+            },
+            "version": 2
           }
         }
       }
